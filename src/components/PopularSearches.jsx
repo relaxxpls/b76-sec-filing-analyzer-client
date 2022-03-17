@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import styled from 'styled-components';
 
-const PopularSearches = () => {
+export const SearchPopular = () => {
   useEffect(() => {}, []);
 
   return (
@@ -17,7 +17,11 @@ const PopularSearches = () => {
   );
 };
 
-export default PopularSearches;
+export const SearchSuggestions = () => (
+  <div>
+    <h1>Hello</h1>
+  </div>
+);
 
 const Container = styled.div`
   display: flex;

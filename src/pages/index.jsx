@@ -1,40 +1,77 @@
-import { Input } from 'antd';
-import { useState } from 'react';
+import { Input, AutoComplete } from 'antd';
+import { useEffect, useState } from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
 import { HiOutlineSearch } from 'react-icons/hi';
 import styled from 'styled-components';
 
-import PopularSearches from '../components/PopularSearches';
+import {
+  SearchPopular,
+  SearchSuggestions,
+} from '../components/PopularSearches';
+
+const companies = [
+  {
+    name: 'Apple Inc',
+    ticker: 'APL',
+    cik: '001',
+  },
+  {
+    name: 'Facebook Inc',
+    ticker: 'FB',
+    cik: '002',
+  },
+];
 
 const Home = () => {
-  const [search, setSearch] = useState(null);
+  const [search, setSearch] = useState([]);
+  const [options, setOptions] = useState([]);
 
-  const handleSearch = (event) => {
-    setSearch(event.target.value);
+  const handleSearch = (value) => {
+    setSearch([value]);
   };
+
   const loading = false;
+  // const options = [
+  //   {
+  //     value: 'hi',
+  //     label: 'okk',
+  //   },
+  // ];
+
+  useEffect(() => {
+    // companies.find();
+
+    setOptions;
+  }, [search]);
 
   return (
     <Container>
       <Title>Gather.com</Title>
 
-      <StyledInput
-        size="large"
-        placeholder="Search for a company name, ID or type"
-        allowClear
-        maxLength={100}
-        onChange={handleSearch}
-        value={search}
-        prefix={
-          loading ? (
-            <AiOutlineLoading size="18" />
-          ) : (
-            <HiOutlineSearch size="18" />
-          )
-        }
-      />
+      <AutoComplete
+        options={options}
+        onSearch={handleSearch}
+        notFoundContent={<SearchSuggestions />}
+      >
+        <StyledInput
+          size="large"
+          placeholder="Search for a company name, ID or type"
+          allowClear
+          maxLength={100}
+          onChange={handleSearch}
+          value={search}
+          prefix={
+            loading ? (
+              <AiOutlineLoading size="18" />
+            ) : (
+              <HiOutlineSearch size="18" />
+            )
+          }
+          style={{ width: '30rem' }}
+        />
+      </AutoComplete>
 
-      <PopularSearches />
+      <SearchPopular />
     </Container>
   );
 };
@@ -42,7 +79,7 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
-  padding: 10rem 20rem;
+  padding: 10rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
