@@ -1,74 +1,80 @@
-import { Layout, Menu, Input } from 'antd';
-import {
-  AiOutlineUpload,
-  AiOutlineUser,
-  AiOutlineVideoCamera,
-} from 'react-icons/ai';
+import { Input } from 'antd';
+import { useState } from 'react';
+import { AiOutlineLoading } from 'react-icons/ai';
+import { HiOutlineSearch } from 'react-icons/hi';
+import styled from 'styled-components';
 
-import CompanyCard from '../components/CompanyCard';
+import PopularSearches from '../components/PopularSearches';
 
-const { Header, Content, Footer, Sider } = Layout;
+const Home = () => {
+  const [search, setSearch] = useState(null);
 
-const companies = [
-  {
-    cik: '0001',
-    title: 'Apple',
-    description:
-      'Apple is a multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services.',
-  },
-  {
-    cik: '0002',
-    title: 'Google',
-    description:
-      'Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search, cloud computing, software, and hardware.',
-  },
-  {
-    cik: '0003',
-    title: 'Microsoft',
-    description:
-      'Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington.',
-  },
-  {
-    cik: '0004',
-    title: 'Facebook',
-    description:
-      'Facebook is a social media and social networking service based in Menlo Park, California. Launched on February 4, 2004, it is the most popular social networking website in the world, with one billion active monthly active users.',
-  },
-];
+  const handleSearch = (event) => {
+    setSearch(event.target.value);
+  };
+  const loading = false;
 
-const Home = () => (
-  <Layout>
-    <Sider style={{ height: '100vh' }}>
-      <div className="logo" />
-      <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']}>
-        <Menu.Item key="1" icon={<AiOutlineUser size="14" />}>
-          nav 1
-        </Menu.Item>
-        <Menu.Item key="2" icon={<AiOutlineVideoCamera size="14" />}>
-          nav 2
-        </Menu.Item>
-        <Menu.Item key="3" icon={<AiOutlineUpload size="14" />}>
-          nav 3
-        </Menu.Item>
-        <Menu.Item key="4" icon={<AiOutlineUser size="14" />}>
-          nav 4
-        </Menu.Item>
-      </Menu>
-    </Sider>
+  return (
+    <Container>
+      <Title>Gather.com</Title>
 
-    <Layout>
-      <Content style={{ margin: '0 16px 0' }}>
-        <Input.Search placeholder="input search text" style={{ padding: 24 }} />
+      <StyledInput
+        size="large"
+        placeholder="Search for a company name, ID or type"
+        allowClear
+        maxLength={100}
+        onChange={handleSearch}
+        value={search}
+        prefix={
+          loading ? (
+            <AiOutlineLoading size="18" />
+          ) : (
+            <HiOutlineSearch size="18" />
+          )
+        }
+      />
 
-        {companies.map(({ cik, title, description }) => (
-          <CompanyCard key={cik} title={title} description={description} />
-        ))}
-      </Content>
-      <Footer style={{ textAlign: 'center' }}>This is a Footer</Footer>
-    </Layout>
-
-    <Sider />
-  </Layout>
-);
+      <PopularSearches />
+    </Container>
+  );
+};
 
 export default Home;
+
+const Container = styled.div`
+  padding: 10rem 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Title = styled.h1`
+  margin-bottom: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+`;
+
+const StyledInput = styled(Input)`
+  height: 2.5rem;
+  padding: 0 0.75rem;
+  background: transparent;
+  border: 2px solid gray;
+  border-radius: 0.25rem;
+  color: lightgray;
+
+  .ant-input {
+    color: white;
+    font-size: 1.25rem;
+    background: transparent;
+    margin-left: 0.5rem;
+  }
+
+  .anticon-close-circle > svg {
+    width: 0.75rem;
+    height: 0.75rem;
+    color: lightgray;
+  }
+`;
