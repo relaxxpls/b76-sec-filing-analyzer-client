@@ -1,3 +1,4 @@
+import { Alert } from 'antd';
 import { useEffect } from 'react';
 import { HiOutlineClock, HiOutlineStar, HiOutlineTable } from 'react-icons/hi';
 import styled from 'styled-components';
@@ -22,7 +23,7 @@ const companies = ['Apple Inc', 'Meta Inc', 'Alphabet Inc', 'Microsoft Inc'];
 
 export const SearchSuggestions = () => (
   <SearchSuggestionsContainer>
-    <span style={{ color: '#FF5271aa' }}>Type atleast 3 letters.</span>
+    <Alert message="Type atleast 3 letters." type="error" />
 
     <Section>
       <SubSection>
@@ -64,7 +65,7 @@ export const SearchSuggestions = () => (
 const SearchSuggestionsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1.5rem;
   background: #2c343b;
   height: 100%;
   padding: 0.5rem 1rem;

@@ -20,3 +20,13 @@ ConfigProvider.config({
     errorColor: '#fd5371',
   },
 });
+
+// @component-background: #303030;
+// @body-background: #303030;
+// @popover-background: #303030;
+// @border-color-base: #6f6c6c;
+// @border-color-split: #424242;
+// @table-header-sort-active-bg: #424242;
+// @card-skeleton-bg: #424242;
+// @skeleton-color: #424242;
+// @table-header-sort-active-bg: #424242;

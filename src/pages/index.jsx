@@ -1,4 +1,4 @@
-import { Divider, Input, AutoComplete, Button } from 'antd';
+import { Divider, Input, AutoComplete, Button, Alert } from 'antd';
 import Router from 'next/router';
 import { useState } from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
@@ -53,12 +53,14 @@ const Home = () => {
 
   const add = (target) => (event) => {
     event.stopPropagation();
-    if (!cart.includes(target)) setCart([...cart, target]);
+    setCart((_cart) =>
+      _cart.find((item) => item.cik === target.cik) ? _cart : [..._cart, target]
+    );
   };
 
-  const remove = (target) => (event) => {
+  const rem = (target) => (event) => {
     event.stopPropagation();
-    setCart(cart.filter((item) => item.cik !== target.cik));
+    setCart((_cart) => _cart.filter((item) => item.cik !== target.cik));
   };
 
   const handleSearch = async (value) => {
@@ -124,7 +126,11 @@ const Home = () => {
         {cart.map((item) => (
           <CompareItemContainer key={item.cik}>
             <div
-              style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}
+              style={{
+                display: 'flex',
+                alignItems: 'baseline',
+                gap: '0.5rem',
+              }}
             >
               <h2>{item.name}</h2>
               <span>{item.ticker}</span>
@@ -136,15 +142,19 @@ const Home = () => {
               shape="circle"
               style={{ borderRadius: '0.25rem' }}
               icon={<HiOutlineXCircle size="24" />}
-              onClick={remove(item)}
+              onClick={rem(item)}
             />
           </CompareItemContainer>
         ))}
 
+        {cart.length < 2 && (
+          <Alert message="Select atleast 2 companies." type="error" />
+        )}
+
         <Button
           type="primary"
           style={{ borderRadius: '0.25rem' }}
-          disabled={cart.length === 0}
+          disabled={cart.length < 2}
         >
           Compare
         </Button>
@@ -161,7 +171,6 @@ const Container = styled.div`
 `;
 
 const LeftSection = styled.div`
-  padding: 10rem 0;
   width: 100%;
   display: flex;
   flex-direction: column;
