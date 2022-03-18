@@ -1,4 +1,4 @@
-import { Divider, Input, AutoComplete, Button, Alert } from 'antd';
+import { Input, AutoComplete, Button, Alert } from 'antd';
 import Router from 'next/router';
 import { useState } from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
@@ -10,24 +10,7 @@ import {
 import styled from 'styled-components';
 
 import { SearchPopular, SearchSuggestions } from '../components/Search';
-
-const companies = [
-  {
-    name: 'Apple Inc',
-    ticker: 'APL',
-    cik: '001',
-  },
-  {
-    name: 'Facebook Inc',
-    ticker: 'FB',
-    cik: '002',
-  },
-  {
-    name: 'Faceboot Inc',
-    ticker: 'FBB',
-    cik: '003',
-  },
-];
+import companies from '../data/companies.json';
 
 const find = (a, b) => a.toLowerCase().includes(b.toLowerCase());
 
@@ -48,7 +31,6 @@ const SearchItem = ({ item, onSelect }) => (
 const Home = () => {
   const [search, setSearch] = useState([]);
   const [options, setOptions] = useState([]);
-  const [loading, setLoading] = useState(false);
   const [cart, setCart] = useState([]);
 
   const add = (target) => (event) => {
@@ -67,8 +49,6 @@ const Home = () => {
     setSearch(value);
     setOptions([]);
     if (value.length < 3) return;
-    setLoading(true);
-
     const results = companies
       .filter(
         (company) =>
@@ -82,7 +62,6 @@ const Home = () => {
       }));
 
     setOptions(results);
-    setLoading(false);
   };
 
   const onSelect = (value) => {
@@ -106,14 +85,8 @@ const Home = () => {
             placeholder="Search for a company name, ID or type"
             allowClear
             maxLength={100}
-            prefix={
-              loading ? (
-                <AiOutlineLoading size="18" />
-              ) : (
-                <HiOutlineSearch size="18" />
-              )
-            }
-            style={{ width: '30rem' }}
+            style={{ width: '40rem' }}
+            prefix={<HiOutlineSearch size="18" />}
           />
         </AutoComplete>
 
@@ -151,13 +124,13 @@ const Home = () => {
           <Alert message="Select atleast 2 companies." type="error" />
         )}
 
-        <Button
+        <StyledButton
           type="primary"
           style={{ borderRadius: '0.25rem' }}
           disabled={cart.length < 2}
         >
           Compare
-        </Button>
+        </StyledButton>
       </RightSection>
     </Container>
   );
@@ -179,7 +152,7 @@ const LeftSection = styled.div`
 `;
 
 const RightSection = styled.div`
-  width: 25rem;
+  width: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -231,6 +204,7 @@ const StyledButton = styled(Button)`
   gap: 0.5rem;
   color: #c7c7c7;
   border-radius: 0.25rem;
+  text-transform: uppercase;
 
   &:hover {
     color: #f8f9fa;
@@ -276,6 +250,7 @@ const CompareItemContainer = styled.div`
   h2 {
     color: white;
     margin: 0;
+    font-size: 1.25rem;
   }
   span {
     color: #7f868d;
