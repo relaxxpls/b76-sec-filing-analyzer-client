@@ -1,13 +1,10 @@
 import { Input, AutoComplete } from 'antd';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
 import { HiOutlineSearch } from 'react-icons/hi';
 import styled from 'styled-components';
 
-import {
-  SearchPopular,
-  SearchSuggestions,
-} from '../components/PopularSearches';
+import { SearchPopular, SearchSuggestions } from '../components/Search';
 
 const companies = [
   {
@@ -22,27 +19,34 @@ const companies = [
   },
 ];
 
+const find = (a, b) => a.toLowerCase().includes(b.toLowerCase());
+
 const Home = () => {
   const [search, setSearch] = useState([]);
   const [options, setOptions] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-  const handleSearch = (value) => {
-    setSearch([value]);
+  const handleSearch = async (value) => {
+    setSearch(value);
+    setOptions([]);
+    if (value.length <= 3) return;
+    setLoading(true);
+
+    const results = companies
+      .filter(
+        (company) =>
+          find(company.name, value) ||
+          find(company.ticker, value) ||
+          find(company.cik, value)
+      )
+      .map((res) => ({
+        value: res.cik,
+        label: <h1>{res.name}</h1>,
+      }));
+
+    setOptions(results);
+    setLoading(false);
   };
-
-  const loading = false;
-  // const options = [
-  //   {
-  //     value: 'hi',
-  //     label: 'okk',
-  //   },
-  // ];
-
-  useEffect(() => {
-    // companies.find();
-
-    setOptions;
-  }, [search]);
 
   return (
     <Container>
@@ -50,7 +54,7 @@ const Home = () => {
 
       <AutoComplete
         options={options}
-        onSearch={handleSearch}
+        onChange={handleSearch}
         notFoundContent={<SearchSuggestions />}
       >
         <StyledInput
@@ -58,7 +62,6 @@ const Home = () => {
           placeholder="Search for a company name, ID or type"
           allowClear
           maxLength={100}
-          onChange={handleSearch}
           value={search}
           prefix={
             loading ? (
