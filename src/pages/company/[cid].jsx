@@ -1,12 +1,13 @@
-import { Tabs, Layout, Menu, Typography, Card} from 'antd';
+import { Tabs, Layout, Menu, Typography, Card, Row, Col, Statistic} from 'antd';
 import loadCustomRoutes from 'next/dist/lib/load-custom-routes';
-import { HiArrowCircleDown, HiArrowCircleUp } from "react-icons/hi";
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 
 import { InfoCardNegative, InfoCardPositive } from '../../components/InfoCard';
 import IncomeStatement from '../../components/IncomeStatement';
+import { COOKIE_NAME_PRERENDER_DATA } from 'next/dist/server/api-utils';
 
 const { Content, Sider } = Layout;
 const { Title } = Typography;
@@ -53,7 +54,53 @@ const Company = () => {
 
       <Tabs defaultActiveKey="1" centered style={{color: 'lightgray'}} >
         <Tabs.TabPane tab="Overview" key="1">
-          Content of Tab Pane 1
+          <div style={{display:'flex'}}>
+              <Card style={{height:'100vh', width:'45%', background:'transparent'}}>
+                <Row gutter={16}>
+                  <Col span={12}>
+                     <Card style={{background:'dimgray', maxHeight:100, marginBottom:'1rem'}}> <Title level={5} style={{color:'white'}}>{"Wholesale Computers and Peripheral Equipment"}</Title></Card>
+                  </Col>
+                  <Col span={12}>
+                  <Card style={{background:'dimgray', maxHeight:100}}><Statistic title="MARKET CAP" value={'16,25,832'}
+                      valueStyle={{ color: 'violet' }} suffix="$"/></Card>
+                  </Col>
+                </Row>
+
+                <Title level={4} style={{color:'white'}}>Key Metrics</Title>
+                <Row gutter={8} style={{paddingBottom:'1rem'}}>
+                  <Col span={6}>
+                    <Card style={{background:'darkgray'}}><Statistic title={"Net Income"} value={3240.36} suffix="$"></Statistic></Card>
+                  </Col>
+
+                  <Col span={6}>
+                    <Card style={{background:'darkgray'}}><Statistic title={"Net Income"} value={3240.36} suffix="$"></Statistic></Card>
+                  </Col>
+
+                  <Col span={6}>
+                    <Card style={{background:'darkgray', height:'100%'}}><Statistic title={"P/E Ratio"} value={29.3} valueStyle={{color:'tomato'}}suffix="$"></Statistic></Card>
+                  </Col>
+                  <Col span={6}>
+                    <Card style={{background:'darkgray', height:'100%'}}><Statistic title={"P/E Ratio"} value={29.3} valueStyle={{color:'tomato'}}suffix="$"></Statistic></Card>
+                  </Col>
+                </Row>
+                <Title level={4} style={{color:'white'}}>Sentiment Analysis</Title>
+                <Row gutter={16} style={{paddingBottom:'1rem'}}> 
+                  <Col span={8}><Card/></Col>
+                  <Col span={8}><Card/></Col>
+                  <Col span={8}><Card/></Col>
+                </Row>
+                <Title level={4} style={{color:'white'}}>Financial Notes on {company.title}</Title>
+                <Row gutter={16}>
+                  <Col span={8}><Card/></Col>
+                  <Col span={8}><Card/></Col>
+                </Row>
+
+              </Card>
+              <Card style={{height:'100vh', width:'55%', background:'transparent'}}>
+                <Title level={3} style={{color:'white'}}>Stock Price</Title>
+                <Card style={{height:500, background:'black'}}></Card>
+              </Card>
+          </div>
         </Tabs.TabPane>
         <Tabs.TabPane tab="Financials" key="2">
           <Layout  style={{background: 'transparent'}}>
@@ -79,6 +126,9 @@ const Company = () => {
 
             </RightAside>
           </Layout>
+        </Tabs.TabPane>
+        <Tabs.TabPane tab="Benchmarks" key="3">
+          Content of Tab Pane 3
         </Tabs.TabPane>
       </Tabs>
     </MainContainer>
