@@ -23,7 +23,7 @@ const companies = [
     cik: '002',
   },
   {
-    name: 'Faceboob Inc',
+    name: 'Faceboot Inc',
     ticker: 'FBB',
     cik: '003',
   },
