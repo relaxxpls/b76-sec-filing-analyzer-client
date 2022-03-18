@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { HiOutlineClock, HiOutlineStar, HiOutlineTable } from 'react-icons/hi';
 import styled from 'styled-components';
 
 export const SearchPopular = () => {
@@ -17,11 +18,77 @@ export const SearchPopular = () => {
   );
 };
 
+const companies = ['Apple Inc', 'Meta Inc', 'Alphabet Inc', 'Microsoft Inc'];
+
 export const SearchSuggestions = () => (
-  <div>
-    <h1>Hello</h1>
-  </div>
+  <SearchSuggestionsContainer>
+    <span style={{ color: '#FF5271aa' }}>Type atleast 3 letters.</span>
+
+    <Section>
+      <SubSection>
+        <h3>
+          <HiOutlineClock size="14" />
+          Recent:
+        </h3>
+        {companies.map((company) => (
+          <span key={company}>{company}</span>
+        ))}
+      </SubSection>
+
+      <SubSection>
+        <h3>
+          <HiOutlineStar size="14" />
+          Popular:
+        </h3>
+        {companies.map((company) => (
+          <span key={company}>{company}</span>
+        ))}
+      </SubSection>
+
+      <SubSection>
+        <h3>
+          <HiOutlineTable size="14" />
+          All companies:
+        </h3>
+
+        {companies.map((company) => (
+          <span key={company}>{company}</span>
+        ))}
+
+        <h5 style={{ textDecoration: 'underline' }}>See More</h5>
+      </SubSection>
+    </Section>
+  </SearchSuggestionsContainer>
 );
+
+const SearchSuggestionsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #2c343b;
+  height: 100%;
+  padding: 0.5rem 1rem;
+`;
+
+const Section = styled.div`
+  display: flex;
+  gap: 3rem;
+`;
+
+const SubSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  font-family: Lato;
+  color: #cbd1d8;
+
+  h3,
+  h5 {
+    color: #7f868d;
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+  }
+`;
 
 const Container = styled.div`
   display: flex;

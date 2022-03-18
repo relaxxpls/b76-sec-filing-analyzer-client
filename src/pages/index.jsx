@@ -1,7 +1,7 @@
-import { Input, AutoComplete } from 'antd';
+import { Input, AutoComplete, Button } from 'antd';
 import { useState } from 'react';
 import { AiOutlineLoading } from 'react-icons/ai';
-import { HiOutlineSearch } from 'react-icons/hi';
+import { HiPlusCircle, HiOutlineSearch } from 'react-icons/hi';
 import styled from 'styled-components';
 
 import { SearchPopular, SearchSuggestions } from '../components/Search';
@@ -17,19 +17,84 @@ const companies = [
     ticker: 'FB',
     cik: '002',
   },
+  {
+    name: 'Faceboob Inc',
+    ticker: 'FBB',
+    cik: '003',
+  },
 ];
 
 const find = (a, b) => a.toLowerCase().includes(b.toLowerCase());
+
+const SearchItem = ({ info, onSelect }) => {
+  const redirectCompany = () => {
+    //
+  };
+
+  return (
+    <SearchItemContainer onClick={redirectCompany}>
+      <StyledButton
+        type="text"
+        shape="circle"
+        icon={<HiPlusCircle />}
+        size="small"
+        onClick={onSelect}
+      />
+
+      <h5>{info.name}</h5>
+    </SearchItemContainer>
+  );
+};
+
+const StyledButton = styled(Button)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const SearchItemContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
+  height: 100%;
+  margin-left: 2rem;
+
+  h5 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+
+  .ant-btn {
+    display: none;
+    height: 1rem;
+  }
+
+  &:hover {
+    margin-left: 0;
+
+    .ant-btn {
+      display: flex;
+    }
+  }
+`;
 
 const Home = () => {
   const [search, setSearch] = useState([]);
   const [options, setOptions] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [cart, setCart] = useState([]);
+
+  const add = (cik) => () => {
+    setCart([...cart, cik]);
+  };
 
   const handleSearch = async (value) => {
     setSearch(value);
     setOptions([]);
-    if (value.length <= 3) return;
+    if (value.length < 3) return;
     setLoading(true);
 
     const results = companies
@@ -41,7 +106,7 @@ const Home = () => {
       )
       .map((res) => ({
         value: res.cik,
-        label: <h1>{res.name}</h1>,
+        label: <SearchItem info={res} onSelect={add(res.cik)} />,
       }));
 
     setOptions(results);

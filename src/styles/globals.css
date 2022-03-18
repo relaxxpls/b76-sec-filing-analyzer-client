@@ -19,3 +19,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ant-select-dropdown {
+  background: #2c343b;
+  padding: 0;
+  border: 2px solid #7f868d;
+  border-radius: 0.25rem;
+  padding: 1rem;
+}
+
+.ant-select-item-option {
+  border-radius: 0.25rem;
+}
+
+.ant-select-item-option.ant-select-item-option-active {
+  background: #5d5fef;
+}
