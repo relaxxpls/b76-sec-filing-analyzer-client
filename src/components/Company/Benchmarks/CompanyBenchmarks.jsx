@@ -1,9 +1,9 @@
-import { Card, Row, Col, Typography } from 'antd';
+import { Card, Row, Col } from 'antd';
 
 import StyledCard from '../../shared/Card';
 
 const CompanyBenchmarks = ({ company }) => (
-          <div style={{ display: 'block' }}>
+  <div style={{ display: 'block' }}>
     <Card
       bordered={false}
       style={{
@@ -12,17 +12,16 @@ const CompanyBenchmarks = ({ company }) => (
         display: 'flex',
         flexDirection: 'column',
         gap: '10rem',
-        marginLeft:'10rem',
-        marginRight:'10rem',
+        marginLeft: '10rem',
+        marginRight: '10rem',
       }}
     >
       <Row gutter={12}>
-
         <Col span={4}>
           <StyledCard bordered={false}>
             <h4>P/E</h4>
-            <h1 style={{color:'yellowgreen'}}>26.67</h1>
-            <h6 >Large Cap</h6>
+            <h1 style={{ color: 'yellowgreen' }}>26.67</h1>
+            <h6>Large Cap</h6>
           </StyledCard>
         </Col>
         <Col span={4}>
@@ -63,10 +62,9 @@ const CompanyBenchmarks = ({ company }) => (
       </Row>
 
       <Card style={{ width: '80%', background: 'transparent' }}>
-      <Card style={{ height: 500, background: 'black' }} />
+        <Card style={{ height: 500, background: 'black' }} />
+      </Card>
     </Card>
-    </Card>
-
   </div>
 );
 

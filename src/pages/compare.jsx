@@ -8,15 +8,10 @@ import styled from 'styled-components';
 
 import CompanyFinancials from '../components/Company/Financials/CompanyFinancials';
 import Loader from '../components/shared/Loader';
-import companyDataSample from '../data/companyDataSample.json';
+import companyDataDefault from '../data/companyDataDefault.json';
+import companyDataDefault1 from '../data/companyDataDefault1.json';
 import getCompanyByCik from '../utils/getCompanyByCik';
-
-const combine = (dataA, dataB) => {
-  console.log(dataA);
-  const dataCombined = dataA + dataB;
-
-  return dataCombined;
-};
+import { combineData, preprocessData } from '../utils/preprocess';
 
 const TabCompareHeading = () => (
   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
@@ -24,6 +19,11 @@ const TabCompareHeading = () => (
     <span>Comparison</span>
   </div>
 );
+
+const getRandomData = () =>
+  Math.floor(Math.random() * 2) === 0
+    ? companyDataDefault
+    : companyDataDefault1;
 
 const Compare = () => {
   const router = useRouter();
@@ -36,18 +36,24 @@ const Compare = () => {
       setLoading(true);
       const { ciks } = router.query;
 
-      setCompanies(
-        decodeURI(ciks)
-          .split(',')
-          .map((cik) => getCompanyByCik(cik))
-      );
+      const companiesTemp = decodeURI(ciks)
+        .split(',')
+        .map((cik) => getCompanyByCik(cik));
+      setCompanies(companiesTemp);
 
       try {
         await new Promise((resolve) => {
           setTimeout(resolve, 3000);
         });
         // const response = await axios.get(`/api/compare?ciks=${ciks}`);
-        const dataCombined = combine(companyDataSample, companyDataSample);
+
+        const dataCombined = combineData(
+          ...companiesTemp.map((company) =>
+            preprocessData(company.name, getRandomData())
+          )
+        );
+        console.log('data', dataCombined);
+
         setCompareData(dataCombined);
       } catch (error) {
         console.log(error);
