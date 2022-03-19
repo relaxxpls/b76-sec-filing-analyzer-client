@@ -3,17 +3,17 @@ import { Tabs, Typography } from 'antd';
 import lodash from 'lodash';
 import styled from 'styled-components';
 
-const IncomeStatement = ({ data: incomeData }) => (
+const CompanyFinancialGraphs = ({ title, data }) => (
   <Container>
     <Typography.Title level={3} style={{ color: 'white' }}>
-      Income Statement
+      {title}
     </Typography.Title>
 
     <StyledTabs type="card">
-      {incomeData.map(({ title, data }) => (
-        <Tabs.TabPane key={title} tab={lodash.startCase(title)}>
+      {data.map(({ title: subTitle, data: subData }) => (
+        <Tabs.TabPane key={subTitle} tab={lodash.startCase(subTitle)}>
           <StyledLine
-            data={data}
+            data={subData}
             xField="date"
             yField="value"
             seriesField="category"
@@ -26,7 +26,7 @@ const IncomeStatement = ({ data: incomeData }) => (
   </Container>
 );
 
-export default IncomeStatement;
+export default CompanyFinancialGraphs;
 
 const Container = styled.div`
   padding: 0 1rem;

@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-import CompanyFinancials from '../../components/CompanyFinancials';
-import CompanyOverview from '../../components/CompanyOverview';
+import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
+import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
 import companies from '../../data/companies.json';
 import companyData from '../../data/companyDataSample.json';
 

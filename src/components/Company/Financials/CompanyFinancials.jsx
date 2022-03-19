@@ -1,11 +1,11 @@
-import { Layout, Menu, Typography } from 'antd';
+import { Layout, Menu } from 'antd';
 import { useState } from 'react';
-import { HiArrowCircleDown, HiOutlineArrowCircleDown } from 'react-icons/hi';
+import { HiArrowCircleDown } from 'react-icons/hi';
 import styled from 'styled-components';
 
-import StyledCard from './Card';
-import IncomeStatement from './IncomeStatement';
-import { InfoCardNegative, InfoCardPositive } from './InfoCard';
+import StyledCard from '../../Card';
+
+import CompanyFinancialGraphs from './CompanyFinancialGraphs';
 
 const CompanyFinancials = ({ data }) => {
   const [selectedMenuItem, setSelectedMenuItem] = useState('income-statement');
@@ -13,11 +13,26 @@ const CompanyFinancials = ({ data }) => {
   const componentsSwitch = (key) => {
     switch (key) {
       case 'income-statement':
-        return <IncomeStatement data={data.IncomeStatement} />;
+        return (
+          <CompanyFinancialGraphs
+            title="Income Statement"
+            data={data.IncomeStatement}
+          />
+        );
+
       case 'balance-sheet':
-        return <Typography.Title>item2</Typography.Title>;
+        return (
+          <CompanyFinancialGraphs
+            title="Balance Sheet"
+            data={data.BalanceSheet}
+          />
+        );
+
       case 'cash-flow':
-        return <Typography.Title>item3</Typography.Title>;
+        return (
+          <CompanyFinancialGraphs title="Cash Flow" data={data.CashFlow} />
+        );
+
       default:
         return null;
     }
@@ -54,16 +69,6 @@ const CompanyFinancials = ({ data }) => {
             vs industry avg of 8.76%
           </p>
         </StyledCard>
-
-        {/* <InfoCardNegative
-          title="Lower than Industry Revenue Growth"
-          content="Over the last five years, revenue has grown..."
-        />
-
-        <InfoCardPositive
-          title="Higher THan Industry Current Ratio"
-          content="Over the last 5 years, currentratio has been..."
-        /> */}
       </RightAside>
     </Layout>
   );
