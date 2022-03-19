@@ -20,10 +20,14 @@ const adjustMapping = (company, obj) => {
   return result;
 };
 
-export const preprocessData = (company, data) => ({
-  IncomeStatement: adjustMapping(company, data.StatementsOfIncome),
-  BalanceSheet: adjustMapping(company, data.BalanceSheets),
-  CashFlow: adjustMapping(company, data.StatementsOfCashFlows),
+export const preprocessData = (data) => ({
+  IncomeStatement: adjustMapping(data.Name, data.StatementsOfIncome),
+  BalanceSheet: adjustMapping(data.Name, data.BalanceSheets),
+  CashFlow: adjustMapping(data.Name, data.StatementsOfCashFlows),
+  Name: data.Name,
+  Analytics: data.Analytics,
+  Sentiment: data.Sentiment,
+  Filings: data.Filings,
 });
 
 const combine = (...datas) => {

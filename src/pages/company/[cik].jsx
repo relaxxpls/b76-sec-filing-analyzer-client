@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
 import Loader from '../../components/shared/Loader';
-import getCompanyByCik from '../../utils/getCompanyByCik';
+import { getCompanyByCik } from '../../utils/getCompanyByCik';
 import { preprocessData } from '../../utils/preprocess';
 
 const Company = () => {
@@ -30,7 +30,7 @@ const Company = () => {
           `http://localhost:8000/api/company/${cik}`
         );
 
-        const companyDataTemp = preprocessData(result1.name, result2.data);
+        const companyDataTemp = preprocessData(result2.data);
         setCompanyData(companyDataTemp);
       } catch (error) {
         console.error(error);
@@ -58,7 +58,7 @@ const Company = () => {
 
       <StyledTabs defaultActiveKey="overview" centered>
         <Tabs.TabPane tab="Overview" key="overview">
-          <CompanyOverview company={company} />
+          <CompanyOverview name={companyData.Name} company={company} />
         </Tabs.TabPane>
 
         <Tabs.TabPane tab="Financials" key="financials">

@@ -1,6 +1,7 @@
 import companies from '../data/companies.json';
+import companiesOverview from '../data/companiesOverview.json';
 
-const getCompanyByCik = (cik) =>
+export const getCompanyByCik = (cik) =>
   companies.find((_company) => _company.cik === cik) ?? {};
 
-export default getCompanyByCik;
+export const getCompanyOverviewByName = (name) => companiesOverview[name];

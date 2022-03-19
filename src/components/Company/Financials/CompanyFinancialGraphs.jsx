@@ -27,6 +27,10 @@ const CompanyFinancialGraphs = ({ title, type, data }) => {
                 yField="value"
                 seriesField="company"
                 xAxis={{ type: 'time' }}
+                slider={{
+                  start: 0.7,
+                  end: 1,
+                }}
               />
             </Tabs.TabPane>
           ))}

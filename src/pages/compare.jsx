@@ -8,7 +8,7 @@ import styled from 'styled-components';
 
 import CompanyFinancials from '../components/Company/Financials/CompanyFinancials';
 import Loader from '../components/shared/Loader';
-import getCompanyByCik from '../utils/getCompanyByCik';
+import { getCompanyByCik } from '../utils/getCompanyByCik';
 import { combineData, preprocessData } from '../utils/preprocess';
 
 const TabCompareHeading = () => (
