@@ -28,6 +28,7 @@ export const preprocessData = (data) => ({
   Analytics: data.Analytics,
   Sentiment: data.Sentiment,
   Filings: data.Filings,
+  'Q&A': data['Q&A'],
 });
 
 const combine = (...datas) => {

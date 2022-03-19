@@ -3,15 +3,15 @@ import { Row, Col, Typography } from 'antd';
 import { getCompanyOverviewByName } from '../../../utils/getCompanyByCik';
 import StyledCard from '../../shared/Card';
 
-const CompanyOverview = ({ name, company }) => {
+const CompanyOverview = ({ name, company, companyData }) => {
   const overview = getCompanyOverviewByName(name);
+  console.log(companyData);
 
   return (
     <div style={{ padding: '0 1rem' }}>
       <p style={{ fontSize: '1rem', color: '#7F868D', marginBottom: '2rem' }}>
         {overview.details.summary}
       </p>
-
       <Row gutter={12}>
         <Col span={8}>
           <StyledCard bordered={false}>
@@ -38,14 +38,12 @@ const CompanyOverview = ({ name, company }) => {
           </StyledCard>
         </Col>
       </Row>
-
       <Typography.Title
         level={4}
         style={{ margin: '1.5rem 0 1rem', color: 'white' }}
       >
         Key Metrics
       </Typography.Title>
-
       <Row gutter={8} style={{ paddingBottom: '1rem' }}>
         <Col span={6}>
           <StyledCard bordered={false}>
@@ -75,11 +73,9 @@ const CompanyOverview = ({ name, company }) => {
           </StyledCard>
         </Col>
       </Row>
-
       <Typography.Title level={4} style={{ color: 'white' }}>
         Benchmarks
       </Typography.Title>
-
       <Row gutter={12}>
         <Col>
           <StyledCard bordered={false}>
@@ -111,6 +107,17 @@ const CompanyOverview = ({ name, company }) => {
           </StyledCard>
         </Col>
       </Row>
+
+      <Typography.Title level={4} style={{ color: 'white' }}>
+        Question & Answers
+      </Typography.Title>
+
+      {companyData['Q&A'].map((item) => (
+        <>
+          <h1>{item[0]}</h1>
+          <h1>{item[1]}</h1>
+        </>
+      ))}
     </div>
   );
 };

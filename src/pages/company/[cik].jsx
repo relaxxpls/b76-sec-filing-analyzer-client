@@ -58,7 +58,11 @@ const Company = () => {
 
       <StyledTabs defaultActiveKey="overview" centered>
         <Tabs.TabPane tab="Overview" key="overview">
-          <CompanyOverview name={companyData.Name} company={company} />
+          <CompanyOverview
+            name={companyData.Name}
+            company={company}
+            companyData={companyData}
+          />
         </Tabs.TabPane>
 
         <Tabs.TabPane tab="Financials" key="financials">
