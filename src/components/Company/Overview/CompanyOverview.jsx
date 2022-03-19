@@ -112,10 +112,10 @@ const CompanyOverview = ({ name, company, companyData }) => {
       </Typography.Title>
 
       {companyData['Q&A'].map((item) => (
-        <>
-          <h1>{item[0]}</h1>
-          <h1>{item[1]}</h1>
-        </>
+        <StyledCard key={item} style={{ margin: '1rem 0' }}>
+          <h2>Q) {item[0]}</h2>
+          <h3>Ans) {item[1]}</h3>
+        </StyledCard>
       ))}
     </div>
   );
