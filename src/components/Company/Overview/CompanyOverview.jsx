@@ -8,19 +8,33 @@ const CompanyOverview = ({ name, company }) => {
 
   return (
     <div style={{ padding: '0 1rem' }}>
+      <p style={{ fontSize: '1rem', color: '#7F868D', marginBottom: '2rem' }}>
+        {overview.details.summary}
+      </p>
+
       <Row gutter={12}>
-        <Col span={12}>
+        <Col span={8}>
           <StyledCard bordered={false}>
             <h2>Sector</h2>
-            <h4>{company.sic}</h4>
+            <h3>{company.sic}</h3>
           </StyledCard>
         </Col>
 
-        <Col span={12}>
+        <Col span={8}>
           <StyledCard bordered={false}>
             <h2>Market Cap</h2>
-            <h3>16,25,832 $</h3>
-            <h4>Large Cap</h4>
+            <h3>{overview.details.market_cap} $</h3>
+          </StyledCard>
+        </Col>
+
+        <Col span={8}>
+          <StyledCard bordered={false}>
+            <h2>Dividend Yield</h2>
+            <h3>
+              {overview.details.dividend_yield
+                ? `${overview.details.dividend_yield} $`
+                : 'NA'}
+            </h3>
           </StyledCard>
         </Col>
       </Row>
@@ -69,17 +83,15 @@ const CompanyOverview = ({ name, company }) => {
       <Row gutter={12}>
         <Col>
           <StyledCard bordered={false}>
-            <h4>EBITDA</h4>
-            <h1 style={{ color: 'yellowgreen' }}>
-              {Object.values(overview.ebitda)[0]}
-            </h1>
+            <h2>EBITDA</h2>
+            <h3>{Object.values(overview.ebitda)[0]}</h3>
           </StyledCard>
         </Col>
 
         <Col>
           <StyledCard bordered={false}>
-            <h4>EBIT</h4>
-            <h3>{Object.values(overview.ebit)[0]}</h3>
+            <h2>EBIT</h2>
+            <h3>{Object.values(overview.ebit)[0] ?? 'NA'}</h3>
           </StyledCard>
         </Col>
 
@@ -95,7 +107,7 @@ const CompanyOverview = ({ name, company }) => {
         <Col>
           <StyledCard bordered={false}>
             <h2>ROCE</h2>
-            <h3>{overview.roce}</h3>
+            <h3>{overview.roce ?? 'NA'}</h3>
           </StyledCard>
         </Col>
       </Row>
