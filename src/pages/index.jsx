@@ -2,7 +2,6 @@ import { Input, AutoComplete, Button, Alert } from 'antd';
 import Head from 'next/head';
 import Router from 'next/router';
 import { useState } from 'react';
-import { AiOutlineLoading } from 'react-icons/ai';
 import {
   HiOutlineXCircle,
   HiPlusCircle,

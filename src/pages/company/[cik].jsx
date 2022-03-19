@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import CompanyFinancials from '../../components/CompanyFinancials';
 import CompanyOverview from '../../components/CompanyOverview';
 import companies from '../../data/companies.json';
+import companyData from '../../data/companyDataSample.json';
 
 const Company = () => {
   const router = useRouter();
@@ -37,7 +38,7 @@ const Company = () => {
         </Tabs.TabPane>
 
         <Tabs.TabPane tab="Financials" key="2">
-          <CompanyFinancials company={company} />
+          <CompanyFinancials data={companyData} />
         </Tabs.TabPane>
 
         <Tabs.TabPane tab="Benchmarks" key="3">
