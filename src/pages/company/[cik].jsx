@@ -1,4 +1,5 @@
 import { Tabs } from 'antd';
+// import axios from 'axios';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
@@ -6,20 +7,42 @@ import styled from 'styled-components';
 
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
-import companies from '../../data/companies.json';
-import companyData from '../../data/companyDataSample.json';
+import Loader from '../../components/shared/Loader';
+import companyDataSample from '../../data/companyDataSample.json';
+import getCompanyByCik from '../../utils/getCompanyByCik';
 
 const Company = () => {
   const router = useRouter();
   const [company, setCompany] = useState({});
+  const [companyData, setCompanyData] = useState({});
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const { cik } = router.query;
-    const result = companies.find((_company) => _company.cik === cik) ?? {};
-    setCompany(result);
+    const fetchCompanyData = async () => {
+      setLoading(true);
+      const { cik } = router.query;
+      const result1 = getCompanyByCik(cik);
+      if (!result1.cik) return;
+      setCompany(result1);
+
+      try {
+        await new Promise((resolve) => {
+          setTimeout(resolve, 3000);
+        });
+        // const result2 = await axios.get(`/api/company/${cik}`);
+        setCompanyData(companyDataSample);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCompanyData();
   }, [router]);
 
   if (!company.cik) return null;
+  if (loading) return <Loader fixed />;
 
   return (
     <MainContainer>
@@ -32,16 +55,16 @@ const Company = () => {
         <h2>{company.ticker}</h2>
       </Heading>
 
-      <StyledTabs defaultActiveKey="1" centered>
-        <Tabs.TabPane tab="Overview" key="1">
+      <StyledTabs defaultActiveKey="overview" centered>
+        <Tabs.TabPane tab="Overview" key="overview">
           <CompanyOverview company={company} />
         </Tabs.TabPane>
 
-        <Tabs.TabPane tab="Financials" key="2">
+        <Tabs.TabPane tab="Financials" key="financials">
           <CompanyFinancials data={companyData} />
         </Tabs.TabPane>
 
-        <Tabs.TabPane tab="Benchmarks" key="3">
+        <Tabs.TabPane tab="Benchmarks" key="benchmarks">
           Content of Tab Pane 3
         </Tabs.TabPane>
       </StyledTabs>
@@ -60,7 +83,7 @@ const StyledTabs = styled(Tabs)`
 `;
 
 const MainContainer = styled.div`
-  padding: 2rem 0 0 0;
+  padding: 2rem 0;
 `;
 
 const Heading = styled.div`

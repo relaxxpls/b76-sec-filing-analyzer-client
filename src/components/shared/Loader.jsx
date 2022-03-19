@@ -1,18 +1,14 @@
-import styled, { keyframes } from 'styled-components/macro';
+import styled, { keyframes } from 'styled-components';
 
-export const LoaderAnimation = ({ fixed, disable }) => {
-  if (disable) return null;
+const Loader = ({ fixed }) => (
+  <Container style={fixed && { position: 'fixed' }}>
+    <LoaderTrack>
+      <LoaderFill />
+    </LoaderTrack>
+  </Container>
+);
 
-  return (
-    <Container style={fixed && { position: 'fixed' }}>
-      <LoaderTrack>
-        <LoaderFill />
-      </LoaderTrack>
-    </Container>
-  );
-};
-
-export default LoaderAnimation;
+export default Loader;
 
 const Container = styled.div`
   top: 0;
@@ -69,8 +65,8 @@ const LoaderFill = styled.div`
     left: 0;
     background: linear-gradient(
       -135deg,
-      ${({ theme }) => theme.logo} 0%,
-      ${({ theme }) => theme.logo} 30%,
+      #5d5fef 0%,
+      #5d5fef 30%,
       transparent 100%
     );
     content: '';
