@@ -5,7 +5,6 @@ import StyledCard from '../../shared/Card';
 
 const CompanyOverview = ({ name, company, companyData }) => {
   const overview = getCompanyOverviewByName(name);
-  console.log(companyData);
 
   return (
     <div style={{ padding: '0 1rem' }}>
