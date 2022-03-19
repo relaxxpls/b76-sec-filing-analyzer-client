@@ -8,8 +8,6 @@ import styled from 'styled-components';
 
 import CompanyFinancials from '../components/Company/Financials/CompanyFinancials';
 import Loader from '../components/shared/Loader';
-import companyDataDefault from '../data/companyDataDefault.json';
-import companyDataDefault1 from '../data/companyDataDefault1.json';
 import getCompanyByCik from '../utils/getCompanyByCik';
 import { combineData, preprocessData } from '../utils/preprocess';
 
@@ -19,16 +17,6 @@ const TabCompareHeading = () => (
     <span>Comparison</span>
   </div>
 );
-
-const APIInstance = axios.create({
-  baseURL: 'http://localhost:8000/api',
-  withCredentials: true,
-});
-
-const getRandomData = () =>
-  Math.floor(Math.random() * 2) === 0
-    ? companyDataDefault
-    : companyDataDefault1;
 
 const Compare = () => {
   const router = useRouter();
@@ -49,7 +37,9 @@ const Compare = () => {
       try {
         const results = await Promise.all(
           companiesTemp.map((company) =>
-            APIInstance.get(`/company/${company.cik}`)
+            axios
+              .get(`http://localhost:8000/api/company/${company.cik}`)
+              .then(({ data }) => data)
           )
         );
 

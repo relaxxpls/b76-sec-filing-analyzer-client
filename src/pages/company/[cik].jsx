@@ -8,7 +8,6 @@ import styled from 'styled-components';
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
 import Loader from '../../components/shared/Loader';
-import companyDataDefault from '../../data/companyDataDefault.json';
 import getCompanyByCik from '../../utils/getCompanyByCik';
 import { preprocessData } from '../../utils/preprocess';
 
@@ -30,7 +29,9 @@ const Company = () => {
         const result2 = await axios.get(
           `http://localhost:8000/api/company/${cik}`
         );
-        setCompanyData(preprocessData(result1.name, result2));
+
+        const companyDataTemp = preprocessData(result1.name, result2.data);
+        setCompanyData(companyDataTemp);
       } catch (error) {
         console.error(error);
       } finally {
