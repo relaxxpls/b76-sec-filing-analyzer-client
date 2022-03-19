@@ -7,6 +7,7 @@ import styled from 'styled-components';
 
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
+import CompanyBenchmarks from '../../components/Company/Benchmarks/CompanyBenchmarks'
 import Loader from '../../components/shared/Loader';
 import companyDataDefault from '../../data/companyDataDefault.json';
 import getCompanyByCik from '../../utils/getCompanyByCik';
@@ -23,6 +24,7 @@ const Company = () => {
       setLoading(true);
       const { cik } = router.query;
       const result1 = getCompanyByCik(cik);
+      const result2 = getDataByCik(cik);
       if (!result1.cik) return;
       setCompany(result1);
 
@@ -66,7 +68,7 @@ const Company = () => {
         </Tabs.TabPane>
 
         <Tabs.TabPane tab="Benchmarks" key="benchmarks">
-          Content of Tab Pane 3
+          <CompanyBenchmarks company={company} />
         </Tabs.TabPane>
       </StyledTabs>
     </MainContainer>
