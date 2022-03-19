@@ -4,8 +4,9 @@
       "title": "RevenueFromContractWithCustomerIncludingAssessedTax",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "574671000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 574671000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -13,40 +14,49 @@
       "title": "CurriculumAndTeachingCosts",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "63270000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 63270000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "20478000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 20478000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "26256000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 26256000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "30153000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 30153000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "107968000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 107968000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "33148000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 33148000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "34788000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 34788000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "30869000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 30869000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "130817000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 130817000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -54,40 +64,49 @@
       "title": "ServicingAndSupportCosts",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "98890000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 98890000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "30533000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 30533000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "30294000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 30294000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "32536000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 32536000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "125851000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 125851000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "33184000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 33184000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "34865000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 34865000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "33898000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 33898000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "138548000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 138548000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -95,40 +114,49 @@
       "title": "TechnologyAndContentDevelopmentCost",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "115473000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 115473000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "35510000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 35510000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "37307000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 37307000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "40223000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 40223000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "155949000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 155949000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "42924000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 42924000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "42509000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 42509000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "43106000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 43106000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "179061000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 179061000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -136,40 +164,49 @@
       "title": "SellingAndMarketingExpense",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "342395000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 342395000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "99215000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 99215000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "98341000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 98341000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "100068000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 100068000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "390174000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 390174000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "113237000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 113237000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "114644000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 114644000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "118300000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 118300000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "456096000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 456096000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -177,40 +214,49 @@
       "title": "GeneralAndAdministrativeExpense",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "131020000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 131020000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "43653000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 43653000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "39554000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 39554000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "44000000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 44000000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "173526000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 173526000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "47112000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 47112000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "47494000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 47494000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "49736000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 49736000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "208598000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 208598000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -218,20 +264,24 @@
       "title": "AssetImpairmentCharges",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "70379000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 70379000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -239,40 +289,49 @@
       "title": "CostsAndExpenses",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "821427000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 821427000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "229389000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 229389000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "231752000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 231752000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "246980000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 246980000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "953468000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 953468000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "269605000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 269605000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "274300000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 274300000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "275909000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 275909000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "1113120000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 1113120000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -280,40 +339,49 @@
       "title": "OperatingIncomeLoss",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-246756000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -246756000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-53910000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -53910000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-49065000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -49065000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-45907000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -45907000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-178935000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -178935000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-37132000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -37132000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-37091000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -37091000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-43533000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -43533000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-167438000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -167438000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -321,40 +389,49 @@
       "title": "InvestmentIncomeInterest",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "5800000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 5800000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "513000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 513000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "154000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 154000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "713000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 713000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1354000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1354000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "362000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 362000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "352000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 352000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "474000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 474000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "1475000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 1475000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -362,40 +439,49 @@
       "title": "InterestExpense",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "13419000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 13419000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "5493000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 5493000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "6518000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 6518000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "7564000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 7564000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "27317000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 27317000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "7881000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 7881000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "8188000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 8188000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "16945000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 16945000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "51222000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 51222000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -403,40 +489,49 @@
       "title": "OtherOperatingIncomeExpenseNet",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-707000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -707000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-2271000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -2271000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "570000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 570000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "42000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 42000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-1429000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -1429000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-915000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -915000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "24070000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 24070000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-425000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -425000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "22324000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 22324000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -444,40 +539,49 @@
       "title": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-255082000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -255082000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-61161000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -61161000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-66530000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -66530000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-52716000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -52716000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-217998000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -217998000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-45566000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -45566000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-21958000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -21958000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-60429000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -60429000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-195962000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -195962000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -485,40 +589,49 @@
       "title": "IncomeTaxExpenseBenefit",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-19860000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -19860000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-1055000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -1055000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-363000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -363000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-162000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -162000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-1514000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -1514000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-2000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -2000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-127000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -127000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-319000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -319000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-1196000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -1196000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -526,40 +639,49 @@
       "title": "NetIncomeLoss",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-235222000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -235222000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-60106000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -60106000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-66167000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -66167000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-52554000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -52554000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-216484000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -216484000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-45564000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -45564000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-21831000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -21831000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-60110000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -60110000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-194766000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -194766000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -567,28 +689,34 @@
       "title": "EarningsPerShareBasicAndDiluted",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-3.83"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -3.83,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-0.94"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -0.94,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-1.03"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -1.03,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-0.77"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -0.77,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-3.22"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -3.22,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-0.62"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -0.62,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -596,28 +724,34 @@
       "title": "WeightedAverageNumberOfShareOutstandingBasicAndDiluted",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "61393666"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 61393666,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "63626333"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 63626333,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "64075405"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 64075405,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "68580439"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 68580439,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "67142976"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 67142976,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "73676409"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 73676409,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -625,12 +759,14 @@
       "title": "OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1710000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1710000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-16115000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -16115000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -638,40 +774,49 @@
       "title": "ComprehensiveIncomeNetOfTax",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-233512000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -233512000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-76221000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -76221000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-64763000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -64763000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-50887000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -50887000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-219464000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -219464000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-46369000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -46369000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-18854000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -18854000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-64378000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -64378000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-200893000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -200893000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -679,36 +824,44 @@
       "title": "RevenueFromContractWithCustomerExcludingAssessedTax",
       "data": [
         {
-          "date": "2020-03-31",
-          "value": "175479000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 175479000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "182687000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 182687000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "201073000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 201073000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "774533000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 774533000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "232473000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 232473000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "237209000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 237209000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "232376000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 232376000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "945682000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 945682000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -716,28 +869,34 @@
       "title": "GainsLossesOnExtinguishmentOfDebt",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "-11671000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -11671000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-11671000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -11671000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-1101000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -1101000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-1101000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -1101000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -745,32 +904,39 @@
       "title": "OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPortionAttributableToParent",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "1404000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1404000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "1667000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 1667000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-2980000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -2980000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-805000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -805000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "2977000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 2977000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-4268000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -4268000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-6127000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -6127000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -778,16 +944,19 @@
       "title": "EarningsPerShareBasic",
       "data": [
         {
-          "date": "2021-06-30",
-          "value": "-0.29"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -0.29,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-0.80"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -0.8,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-2.61"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -2.61,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -795,16 +964,19 @@
       "title": "EarningsPerShareDiluted",
       "data": [
         {
-          "date": "2021-06-30",
-          "value": "-0.29"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -0.29,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-0.80"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -0.8,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-2.61"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -2.61,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -812,16 +984,19 @@
       "title": "WeightedAverageNumberOfSharesOutstandingBasic",
       "data": [
         {
-          "date": "2021-06-30",
-          "value": "74421911"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 74421911,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "74691521"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 74691521,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "74580115"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 74580115,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -829,16 +1004,19 @@
       "title": "WeightedAverageNumberOfDilutedSharesOutstanding",
       "data": [
         {
-          "date": "2021-06-30",
-          "value": "74421911"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 74421911,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "74691521"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 74691521,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "74580115"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 74580115,
+          "company": "Microsoft Corp"
         }
       ]
     }
@@ -848,40 +1026,49 @@
       "title": "CashAndCashEquivalentsAtCarryingValue",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "170593000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 170593000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "138200000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 138200000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "194803000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 194803000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "481329000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 481329000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "500629000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 500629000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "486830000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 486830000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "953107000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 953107000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "934348000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 934348000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "232932000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 232932000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -889,40 +1076,49 @@
       "title": "RestrictedCashCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "19276000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 19276000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "19286000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 19286000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "18228000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 18228000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "18235000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 18235000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "18237000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 18237000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "18226000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 18226000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "18227000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 18227000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "16976000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 16976000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "16977000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 16977000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -930,8 +1126,9 @@
       "title": "Investments",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "0"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -939,40 +1136,49 @@
       "title": "AccountsReceivableNetCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "33655000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 33655000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "75411000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 75411000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "71580000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 71580000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "95756000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 95756000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "46663000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 46663000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "74744000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 74744000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "101394000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 101394000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "95390000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 95390000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "67287000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 67287000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -980,40 +1186,49 @@
       "title": "PrepaidExpenseAndOtherAssetsCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "37424000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 37424000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "42103000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 42103000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "40378000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 40378000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "40270000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 40270000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "39353000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 39353000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "57770000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 57770000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "62895000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 62895000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "68388000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 68388000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "47217000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 47217000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1021,40 +1236,49 @@
       "title": "AssetsCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "260948000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 260948000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "275000000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 275000000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "324989000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 324989000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "635590000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 635590000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "604882000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 604882000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "637570000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 637570000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "1135623000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 1135623000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "1115102000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 1115102000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "393852000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 393852000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1062,40 +1286,49 @@
       "title": "PropertyPlantAndEquipmentNet",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "57643000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 57643000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "56015000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 56015000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "55066000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 55066000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "53603000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 53603000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "52734000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 52734000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "50745000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 50745000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "50015000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 50015000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "48006000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 48006000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "48650000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 48650000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1103,40 +1336,49 @@
       "title": "OperatingLeaseRightOfUseAsset",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "43401000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 43401000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "48675000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 48675000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "49813000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 49813000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "53453000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 53453000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "60785000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 60785000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "59653000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 59653000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "68150000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 68150000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "77940000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 77940000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "76841000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 76841000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1144,40 +1386,49 @@
       "title": "Goodwill",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "418350000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 418350000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "404733000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 404733000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "406340000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 406340000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "407860000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 407860000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "415830000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 415830000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "415145000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 415145000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "417357000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 417357000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "414004000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 414004000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "834539000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 834539000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1185,36 +1436,44 @@
       "title": "FiniteLivedIntangibleAssetsNet",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "333075000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 333075000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "324976000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 324976000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "320559000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 320559000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "316405000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 316405000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "312770000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 312770000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "306083000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 306083000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "301095000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 301095000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "291427000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 291427000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1222,16 +1481,19 @@
       "title": "PrepaidExpenseAndOtherAssetsNoncurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "73413000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 73413000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "72562000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 72562000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "75793000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 75793000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1239,40 +1501,49 @@
       "title": "Assets",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1186830000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1186830000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "1181961000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 1181961000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1232560000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1232560000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "1552778000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 1552778000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1544264000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1544264000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "1555513000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 1555513000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "2049257000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 2049257000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "2033482000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 2033482000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "2109006000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 2109006000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1280,40 +1551,49 @@
       "title": "AccountsPayableAndAccruedLiabilitiesCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "65381000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 65381000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "89198000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 89198000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "84541000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 84541000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "84404000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 84404000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "130674000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 130674000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "131310000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 131310000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "148421000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 148421000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "155116000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 155116000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "166458000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 166458000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1321,20 +1601,24 @@
       "title": "EmployeeRelatedLiabilitiesCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "21885000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 21885000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "24167000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 24167000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "29090000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 29090000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "44484000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 44484000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1342,40 +1626,49 @@
       "title": "ContractWithCustomerLiabilityCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "48833000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 48833000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "69822000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 69822000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "77071000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 77071000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "91783000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 91783000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "75493000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 75493000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "108364000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 108364000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "110323000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 110323000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "96984000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 96984000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "91926000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 91926000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1383,40 +1676,49 @@
       "title": "OperatingLeaseLiabilityCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "7320000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 7320000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "7858000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 7858000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "8484000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 8484000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "9185000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 9185000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "10024000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 10024000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "10211000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 10211000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "10689000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 10689000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "11243000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 11243000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "13985000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 13985000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1424,40 +1726,49 @@
       "title": "OtherLiabilitiesCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "12535000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 12535000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "12414000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 12414000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "13785000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 13785000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "17100000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 17100000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "21178000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 21178000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "25315000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 25315000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "22531000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 22531000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "37033000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 37033000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "61138000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 61138000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1465,40 +1776,49 @@
       "title": "LiabilitiesCurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "155954000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 155954000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "203459000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 203459000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "212971000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 212971000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "246956000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 246956000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "237369000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 237369000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "275200000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 275200000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "291964000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 291964000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "300376000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 300376000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "333507000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 333507000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1506,40 +1826,49 @@
       "title": "LongTermDebtNoncurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "246620000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 246620000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "244574000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 244574000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "263129000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 263129000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "268224000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 268224000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "273173000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 273173000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "280429000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 280429000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "742100000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 742100000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "742769000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 742769000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "845316000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 845316000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1547,40 +1876,49 @@
       "title": "DeferredIncomeTaxLiabilitiesNet",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "5133000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 5133000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "3118000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 3118000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "2424000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 2424000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "2134000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 2134000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "2810000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 2810000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "2054000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 2054000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "2167000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 2167000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "1295000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 1295000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "1726000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 1726000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1588,40 +1926,49 @@
       "title": "OperatingLeaseLiabilityNoncurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "66974000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 66974000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "73541000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 73541000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "73592000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 73592000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "75621000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 75621000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "83228000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 83228000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "80645000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 80645000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "89057000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 89057000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "103024000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 103024000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "98666000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 98666000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1629,40 +1976,49 @@
       "title": "OtherLiabilitiesNoncurrent",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "899000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 899000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "986000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 986000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1073000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1073000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "8270000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 8270000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "6694000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 6694000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "6697000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 6697000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "6550000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 6550000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "6553000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 6553000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "636000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 636000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1670,40 +2026,49 @@
       "title": "Liabilities",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "475580000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 475580000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "525678000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 525678000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "553189000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 553189000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "601205000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 601205000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "603274000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 603274000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "645025000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 645025000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "1131838000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 1131838000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "1154017000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 1154017000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "1279851000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 1279851000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1711,40 +2076,49 @@
       "title": "CommitmentsAndContingencies",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": null
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": null
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": null
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": null
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": null
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": null
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": null
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": null
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": null
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": null,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1752,40 +2126,49 @@
       "title": "PreferredStockValue",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "0"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "0"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "0"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "0"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "0"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1793,40 +2176,49 @@
       "title": "CommonStockValue",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "63000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 63000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "64000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 64000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "64000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 64000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "71000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 71000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "72000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 72000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "74000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 74000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "75000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 75000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "75000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 75000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "76000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 76000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1834,40 +2226,49 @@
       "title": "AdditionalPaidInCapital",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1197379000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1197379000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "1218632000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 1218632000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1306483000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1306483000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "1629565000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 1629565000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1646574000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1646574000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "1662439000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 1662439000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "1688223000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 1688223000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "1714647000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 1714647000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "1735628000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 1735628000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1875,40 +2276,49 @@
       "title": "RetainedEarningsAccumulatedDeficit",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-479388000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -479388000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-539494000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -539494000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-605661000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -605661000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-658215000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -658215000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-695872000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -695872000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-741436000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -741436000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-763267000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -763267000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-823377000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -823377000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-890638000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -890638000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1916,40 +2326,49 @@
       "title": "AccumulatedOtherComprehensiveIncomeLossNetOfTax",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-6804000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -6804000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-22919000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -22919000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-21515000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -21515000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-19848000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -19848000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-9784000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -9784000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-10589000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -10589000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-7612000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -7612000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-11880000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -11880000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-15911000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -15911000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1957,40 +2376,49 @@
       "title": "StockholdersEquity",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "711250000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 711250000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "656283000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 656283000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "679371000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 679371000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "951573000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 951573000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "940990000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 940990000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "910488000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 910488000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "917419000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 917419000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "879465000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 879465000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "829155000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 829155000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -1998,40 +2426,49 @@
       "title": "LiabilitiesAndStockholdersEquity",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1186830000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1186830000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "1181961000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 1181961000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1232560000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1232560000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "1552778000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 1552778000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1544264000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1544264000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "1555513000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 1555513000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "2049257000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 2049257000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "2033482000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 2033482000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "2109006000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 2109006000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2039,28 +2476,34 @@
       "title": "OtherAssetsNoncurrent",
       "data": [
         {
-          "date": "2020-09-30",
-          "value": "85867000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 85867000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "97263000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 97263000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "86317000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 86317000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "77017000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 77017000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "87003000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 87003000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "68033000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 68033000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2068,8 +2511,9 @@
       "title": "OtherReceivablesNetCurrent",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "29439000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 29439000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2077,8 +2521,9 @@
       "title": "OtherReceivablesNetNoncurrent",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "21568000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 21568000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2086,8 +2531,9 @@
       "title": "IntangibleAssetsNetExcludingGoodwill",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "665523000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 665523000,
+          "company": "Microsoft Corp"
         }
       ]
     }
@@ -2097,40 +2543,49 @@
       "title": "ProfitLoss",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-235222000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -235222000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-60106000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -60106000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-126273000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -126273000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-178827000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -178827000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-216484000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -216484000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-45564000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -45564000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-67395000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -67395000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-127505000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -127505000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-194766000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -194766000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2138,40 +2593,49 @@
       "title": "DepreciationDepletionAndAmortization",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "69843000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 69843000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "23485000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 23485000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "47470000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 47470000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "71406000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 71406000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "96469000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 96469000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "24987000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 24987000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "51409000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 51409000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "77577000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 77577000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "108448000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 108448000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2179,40 +2643,49 @@
       "title": "ShareBasedCompensation",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "51504000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 51504000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "20870000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 20870000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "41961000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 41961000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "63962000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 63962000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "82042000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 82042000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "24947000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 24947000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "49723000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 49723000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "74745000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 74745000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "97766000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 97766000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2220,40 +2693,49 @@
       "title": "OperatingLeaseCost",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "11725000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 11725000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "3620000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 3620000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "7299000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 7299000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "11181000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 11181000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "15153000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 15153000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "4291000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 4291000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "8644000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 8644000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "13518000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 13518000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "18933000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 18933000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2261,36 +2743,44 @@
       "title": "ProvisionForDoubtfulAccounts",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1425000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1425000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "629000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 629000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1267000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1267000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "2703000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 2703000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "4642000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 4642000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "2022000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 2022000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "3551000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 3551000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "5712000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 5712000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2298,8 +2788,9 @@
       "title": "GoodwillImpairmentLoss",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "70379000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 70379000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2307,40 +2798,49 @@
       "title": "IncreaseDecreaseInAccountsReceivable",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-11949000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -11949000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "42744000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 42744000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "39521000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 39521000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "65095000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 65095000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "17877000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 17877000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "30698000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 30698000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "58847000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 58847000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "54689000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 54689000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "31756000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 31756000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2348,32 +2848,39 @@
       "title": "IncreaseDecreaseInRefundsPayable",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-21675000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -21675000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "2739000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 2739000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "4354000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 4354000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "2171000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 2171000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1889000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1889000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "2352000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 2352000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "4629000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 4629000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2381,40 +2888,49 @@
       "title": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "6845000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 6845000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "5273000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 5273000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "8774000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 8774000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "17153000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 17153000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "28267000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 28267000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "10859000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 10859000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "20397000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 20397000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "31237000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 31237000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "7467000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 7467000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2422,40 +2938,49 @@
       "title": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "17081000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 17081000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "23390000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 23390000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "19606000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 19606000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "15281000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 15281000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "11322000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 11322000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-660000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -660000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "15888000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 15888000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "24249000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 24249000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "21212000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 21212000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2463,24 +2988,29 @@
       "title": "IncreaseDecreaseInAccruedCompensationAndRelatedBenefits",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-5539000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -5539000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "3033000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 3033000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "7383000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 7383000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "22737000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 22737000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "30637000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 30637000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2488,40 +3018,49 @@
       "title": "IncreaseDecreaseInContractWithCustomerLiability",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "10014000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 10014000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "21650000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 21650000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "28843000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 28843000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "43138000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 43138000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "26061000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 26061000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "32850000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 32850000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "34697000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 34697000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "21960000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 21960000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "9388000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 9388000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2529,40 +3068,49 @@
       "title": "IncreaseDecreaseInOtherOperatingLiabilities",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-28595000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -28595000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-3920000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -3920000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-9299000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -9299000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-5680000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -5680000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-5364000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -5364000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-4664000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -4664000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-10528000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -10528000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-16028000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -16028000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-26969000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -26969000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2570,40 +3118,49 @@
       "title": "OtherOperatingActivitiesCashFlowStatement",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1982000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1982000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "2764000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 2764000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1694000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1694000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "2486000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 2486000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1443000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1443000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "930000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 930000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "1759000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 1759000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "2100000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 2100000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "2515000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 2515000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2611,40 +3168,49 @@
       "title": "NetCashProvidedByUsedInOperatingActivities",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-51974000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -51974000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-9863000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -9863000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-6644000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -6644000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-6858000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -6858000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "29604000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 29604000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "7627000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 7627000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-2194000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -2194000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-3136000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -3136000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-18074000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -18074000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2652,40 +3218,49 @@
       "title": "PaymentsToAcquireBusinessesNetOfCashAcquired",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "388004000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 388004000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "958000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 958000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "949000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 949000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "949000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 949000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "949000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 949000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "0"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "0"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "761118000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 761118000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2693,40 +3268,49 @@
       "title": "PaymentsToAcquireIntangibleAssets",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "64923000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 64923000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "15808000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 15808000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "32497000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 32497000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "46750000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 46750000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "62784000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 62784000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "14219000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 14219000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "29867000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 29867000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "45179000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 45179000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "60546000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 60546000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2734,40 +3318,49 @@
       "title": "PaymentsToAcquirePropertyPlantAndEquipment",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "13421000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 13421000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "2436000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 2436000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "4254000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 4254000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "5516000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 5516000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "6517000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 6517000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "838000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 838000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "2452000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 2452000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "5397000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 5397000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "9788000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 9788000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2775,36 +3368,44 @@
       "title": "PaymentsToAcquireInvestments",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "10000000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 10000000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "0"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "0"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "1000000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 1000000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "1000000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 1000000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "1000000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 1000000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2812,36 +3413,44 @@
       "title": "ProceedsFromSaleMaturityAndCollectionsOfInvestments",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "25000000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 25000000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "0"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "0"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "37875000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 37875000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "38762000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 38762000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "38818000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 38818000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2849,24 +3458,29 @@
       "title": "AdvancesFromToCustomers",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "400000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 400000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "0"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2874,40 +3488,49 @@
       "title": "AdvancesRepaidFromToCustomers",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "350000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 350000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "100000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 100000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "275000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 275000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "925000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 925000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "925000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 925000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "0"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "200000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 200000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "200000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 200000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "200000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 200000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2915,40 +3538,49 @@
       "title": "NetCashProvidedByUsedInInvestingActivities",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-451398000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -451398000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-19102000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -19102000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-37425000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -37425000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-52290000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -52290000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-69325000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -69325000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-15057000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -15057000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "4812000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 4812000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-12558000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -12558000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-793434000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -793434000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2956,24 +3588,29 @@
       "title": "ProceedsFromIssuanceOfCommonStock",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "0"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "299796000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 299796000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "299796000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 299796000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -2981,36 +3618,44 @@
       "title": "ProceedsFromIssuanceOfDebt",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "244724000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 244724000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "371708000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 371708000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "371681000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 371681000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "371681000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 371681000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "2908000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 2908000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "469595000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 469595000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "469595000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 469595000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "569477000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 569477000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3018,8 +3663,9 @@
       "title": "RepaymentsOfDebt",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "0"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3027,40 +3673,49 @@
       "title": "PaymentsOfDebtIssuanceCosts",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "1953000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 1953000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "2500000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 2500000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "3419000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 3419000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "3419000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 3419000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "3419000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 3419000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "0"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "10258000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 10258000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "10259000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 10259000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "11575000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 11575000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3068,36 +3723,44 @@
       "title": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "2574000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 2574000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "464000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 464000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "470000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 470000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "4784000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 4784000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "12613000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 12613000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "14114000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 14114000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "14543000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 14543000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "18780000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 18780000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3105,40 +3768,49 @@
       "title": "ProceedsFromStockOptionsExercised",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "3119000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 3119000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "384000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 384000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "1825000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1825000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "3123000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 3123000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "4177000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 4177000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "3533000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 3533000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "4270000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 4270000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "6101000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 6101000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "6489000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 6489000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3146,8 +3818,9 @@
       "title": "ProceedsFromRepaymentOfLoansByEmployeeStockOwnershipPlans",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "3382000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 3382000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3155,28 +3828,34 @@
       "title": "PaymentsToAcquisitionofAmortizableIntangibleAssets",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "2180000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 2180000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "0"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "0"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3184,40 +3863,49 @@
       "title": "NetCashProvidedByUsedInFinancingActivities",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "244518000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 244518000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-2474000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -2474000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "67944000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 67944000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "368935000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 368935000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "367506000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 367506000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-6348000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -6348000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "450563000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 450563000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "450464000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 450464000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "544860000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 544860000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3225,40 +3913,49 @@
       "title": "EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-1049000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -1049000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-944000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -944000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "-713000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -713000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "-92000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": -92000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "1212000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 1212000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-32000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -32000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-713000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -713000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-2312000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -2312000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-2309000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -2309000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3266,40 +3963,49 @@
       "title": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "-259903000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": -259903000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "-32383000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": -32383000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "23162000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 23162000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "309695000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 309695000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "328997000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 328997000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "-13810000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": -13810000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "452468000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 452468000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "432458000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 432458000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-268957000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -268957000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3307,40 +4013,49 @@
       "title": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
       "data": [
         {
-          "date": "2019-12-31",
-          "value": "189869000"
+          "date": "2019-12-31T00:00:00.000Z",
+          "value": 189869000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-03-31",
-          "value": "157486000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 157486000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "213031000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 213031000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "499564000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 499564000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "518866000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 518866000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "505056000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 505056000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "971334000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 971334000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "951324000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 951324000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "249909000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 249909000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3348,32 +4063,39 @@
       "title": "PaidInKindInterest",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "5675000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 5675000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "13161000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 13161000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "16267000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 16267000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "7693000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 7693000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "11447000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 11447000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "28278000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 28278000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "25403000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 25403000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3381,16 +4103,19 @@
       "title": "AssetImpairmentCharges",
       "data": [
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "0"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3398,28 +4123,34 @@
       "title": "GainsLossesOnExtinguishmentOfDebt",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "-11671000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": -11671000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "0"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "-11671000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": -11671000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "-1101000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -1101000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-1101000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -1101000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3427,32 +4158,39 @@
       "title": "RepaymentsOfLongTermDebt",
       "data": [
         {
-          "date": "2020-03-31",
-          "value": "358000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 358000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-06-30",
-          "value": "250409000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 250409000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "250479000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 250479000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "250837000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 250837000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-03-31",
-          "value": "176000"
+          "date": "2021-03-31T00:00:00.000Z",
+          "value": 176000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "703000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 703000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "2203000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 2203000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3460,28 +4198,34 @@
       "title": "PaymentsOnCappedCallsInConnectionWithIssuanceOfConvertibleSeniorNotes",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "50540000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 50540000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "50540000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 50540000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "50540000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 50540000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "0"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3489,28 +4233,34 @@
       "title": "PaymentsOfDebtExtinguishmentCosts",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "2528000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 2528000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "2528000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 2528000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "2528000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 2528000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "0"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "0"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3518,28 +4268,34 @@
       "title": "ProceedsFromIssuanceOfSharesUnderIncentiveAndShareBasedCompensationPlans",
       "data": [
         {
-          "date": "2020-06-30",
-          "value": "1771000"
+          "date": "2020-06-30T00:00:00.000Z",
+          "value": 1771000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-09-30",
-          "value": "1771000"
+          "date": "2020-09-30T00:00:00.000Z",
+          "value": 1771000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2020-12-31",
-          "value": "3960000"
+          "date": "2020-12-31T00:00:00.000Z",
+          "value": 3960000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-06-30",
-          "value": "1773000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 1773000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "1773000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 1773000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "3583000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 3583000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3547,12 +4303,14 @@
       "title": "GainLossOnSublease",
       "data": [
         {
-          "date": "2021-09-30",
-          "value": "-4845000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -4845000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "-4845000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": -4845000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3560,8 +4318,9 @@
       "title": "ReceivablesCreditLossExpenseReversal",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "8036000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 8036000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3569,16 +4328,19 @@
       "title": "GainOnSaleOfInvestments",
       "data": [
         {
-          "date": "2021-06-30",
-          "value": "27875000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": 27875000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "27762000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": 27762000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-12-31",
-          "value": "27762000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 27762000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3586,8 +4348,9 @@
       "title": "IncreaseDecreaseInOtherReceivables",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "27001000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 27001000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3595,8 +4358,9 @@
       "title": "RepaymentsOfOtherLongTermDebt",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "4334000"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 4334000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3604,8 +4368,9 @@
       "title": "EarlyRepaymentOfSeniorDebt",
       "data": [
         {
-          "date": "2021-12-31",
-          "value": "0"
+          "date": "2021-12-31T00:00:00.000Z",
+          "value": 0,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3613,8 +4378,9 @@
       "title": "InterestPaidNet",
       "data": [
         {
-          "date": "2020-03-31",
-          "value": "4918000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 4918000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3622,8 +4388,9 @@
       "title": "CapitalExpendituresIncurredButNotYetPaid",
       "data": [
         {
-          "date": "2020-03-31",
-          "value": "1700000"
+          "date": "2020-03-31T00:00:00.000Z",
+          "value": 1700000,
+          "company": "Microsoft Corp"
         }
       ]
     },
@@ -3631,12 +4398,14 @@
       "title": "PaymentsForProceedsFromOtherInvestingActivities",
       "data": [
         {
-          "date": "2021-06-30",
-          "value": "-56000"
+          "date": "2021-06-30T00:00:00.000Z",
+          "value": -56000,
+          "company": "Microsoft Corp"
         },
         {
-          "date": "2021-09-30",
-          "value": "-56000"
+          "date": "2021-09-30T00:00:00.000Z",
+          "value": -56000,
+          "company": "Microsoft Corp"
         }
       ]
     }

@@ -1,6 +1,6 @@
 import { Card, Row, Col, Typography } from 'antd';
 
-import StyledCard from '../../Card';
+import StyledCard from '../../shared/Card';
 
 const CompanyOverview = ({ company }) => (
   <div style={{ display: 'flex' }}>

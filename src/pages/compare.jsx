@@ -68,11 +68,6 @@ const Home = () => {
     Router.push(`/company/${value}`);
   };
 
-  const handleCompareRedirect = () => {
-    const ciks = encodeURI(cart.map(({ cik }) => cik));
-    Router.push(`/compare?ciks=${ciks}`);
-  };
-
   return (
     <Container>
       <Head>
@@ -137,7 +132,6 @@ const Home = () => {
           type="primary"
           style={{ borderRadius: '0.25rem' }}
           disabled={cart.length < 2}
-          onClick={handleCompareRedirect}
         >
           Compare
         </StyledButton>

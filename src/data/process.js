@@ -8,9 +8,12 @@ const adjustMapping = (obj) =>
     data: obj[key]
       .map((item) => {
         const [date] = Object.keys(item);
+        const ddate = new Date(date);
+
         return {
-          date,
-          value: item[date],
+          date: ddate.toJSON(),
+          value: parseFloat(item[date]),
+          company: 'Microsoft Corp',
         };
       })
       .sort((a, b) => new Date(a.date) - new Date(b.date)),

@@ -16,7 +16,7 @@ const CompanyFinancialGraphs = ({ title, data }) => (
             data={subData}
             xField="date"
             yField="value"
-            seriesField="category"
+            seriesField="company"
             xAxis={{ type: 'time' }}
             lineStyle={{ stroke: '#5d5fef' }}
           />

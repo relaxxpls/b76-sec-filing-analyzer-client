@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { HiArrowCircleDown } from 'react-icons/hi';
 import styled from 'styled-components';
 
-import StyledCard from '../../Card';
+import StyledCard from '../../shared/Card';
 
 import CompanyFinancialGraphs from './CompanyFinancialGraphs';
 
