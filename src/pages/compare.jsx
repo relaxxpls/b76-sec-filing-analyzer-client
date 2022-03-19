@@ -3,18 +3,27 @@ import { Tabs } from 'antd';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import { MdOutlineCompareArrows } from 'react-icons/md';
 import styled from 'styled-components';
 
-// import CompanyFinancials from '../components/Company/Financials/CompanyFinancials';
+import CompanyFinancials from '../components/Company/Financials/CompanyFinancials';
 import Loader from '../components/shared/Loader';
 import companyDataSample from '../data/companyDataSample.json';
 import getCompanyByCik from '../utils/getCompanyByCik';
 
 const combine = (dataA, dataB) => {
+  console.log(dataA);
   const dataCombined = dataA + dataB;
 
   return dataCombined;
 };
+
+const TabCompareHeading = () => (
+  <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+    <MdOutlineCompareArrows size="18" />
+    <span>Comparison</span>
+  </div>
+);
 
 const Compare = () => {
   const router = useRouter();
@@ -68,8 +77,8 @@ const Compare = () => {
       </Heading>
 
       <StyledTabs defaultActiveKey="comparison" centered>
-        <Tabs.TabPane tab="Comparison" key="comparison">
-          {/* <CompanyFinancials data={compareData} /> */}
+        <Tabs.TabPane tab={<TabCompareHeading />} key="comparison">
+          <CompanyFinancials data={compareData} />
         </Tabs.TabPane>
       </StyledTabs>
     </Container>

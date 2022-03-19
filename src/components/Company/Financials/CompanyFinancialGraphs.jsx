@@ -3,25 +3,31 @@ import { Tabs, Typography } from 'antd';
 import lodash from 'lodash';
 import styled from 'styled-components';
 
-const CompanyFinancialGraphs = ({ title, data }) => (
+import graphablePrameters from '../../../data/graphableParameters.json';
+
+const isGraphable = (type, title) => graphablePrameters[type].includes(title);
+
+const CompanyFinancialGraphs = ({ title, type, data }) => (
   <Container>
     <Typography.Title level={3} style={{ color: 'white' }}>
       {title}
     </Typography.Title>
 
     <StyledTabs type="card">
-      {data.map(({ title: subTitle, data: subData }) => (
-        <Tabs.TabPane key={subTitle} tab={lodash.startCase(subTitle)}>
-          <StyledLine
-            data={subData}
-            xField="date"
-            yField="value"
-            seriesField="company"
-            xAxis={{ type: 'time' }}
-            lineStyle={{ stroke: '#5d5fef' }}
-          />
-        </Tabs.TabPane>
-      ))}
+      {Object.keys(data)
+        .filter((key) => isGraphable(type, key))
+        .map((key) => (
+          <Tabs.TabPane key={key} tab={lodash.startCase(key)}>
+            <StyledLine
+              data={data[key]}
+              xField="date"
+              yField="value"
+              seriesField="company"
+              xAxis={{ type: 'time' }}
+              lineStyle={{ stroke: '#5d5fef' }}
+            />
+          </Tabs.TabPane>
+        ))}
     </StyledTabs>
   </Container>
 );

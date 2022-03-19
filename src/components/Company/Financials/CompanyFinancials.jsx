@@ -16,6 +16,7 @@ const CompanyFinancials = ({ data }) => {
         return (
           <CompanyFinancialGraphs
             title="Income Statement"
+            type="IncomeStatement"
             data={data.IncomeStatement}
           />
         );
@@ -24,13 +25,18 @@ const CompanyFinancials = ({ data }) => {
         return (
           <CompanyFinancialGraphs
             title="Balance Sheet"
+            type="BalanceSheet"
             data={data.BalanceSheet}
           />
         );
 
       case 'cash-flow':
         return (
-          <CompanyFinancialGraphs title="Cash Flow" data={data.CashFlow} />
+          <CompanyFinancialGraphs
+            title="Cash Flow"
+            type="CashFlow"
+            data={data.CashFlow}
+          />
         );
 
       default:
