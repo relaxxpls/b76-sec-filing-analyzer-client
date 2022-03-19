@@ -60,14 +60,10 @@ const CompanyOverview = ({ company }) => (
         </Col>
 
         <Col span={6}>
-          <Card style={{ background: 'darkgray', height: '100%' }}>
-            <Statistic
-              title="P/E Ratio"
-              value={29.3}
-              valueStyle={{ color: 'tomato' }}
-              suffix="$"
-            />
-          </Card>
+          <StyledCard bordered={false}>
+            <h2>P/E Ratio</h2>
+            <h3>29.3</h3>
+          </StyledCard>
         </Col>
       </Row>
 
@@ -98,13 +94,7 @@ const CompanyOverview = ({ company }) => (
       </Row>
     </Card>
 
-    <Card
-      style={{
-        height: '100vh',
-        width: '55%',
-        background: 'transparent',
-      }}
-    >
+    <Card style={{ width: '55%', background: 'transparent' }}>
       <Typography.Title level={3} style={{ color: 'white' }}>
         Stock Price
       </Typography.Title>

@@ -31,12 +31,7 @@ const Company = () => {
         <h2>{company.ticker}</h2>
       </Heading>
 
-      <StyledTabs
-        defaultActiveKey="1"
-        centered
-        style={{ color: 'lightgray' }}
-        // tabBarStyle={{ background: 'green' }}
-      >
+      <StyledTabs defaultActiveKey="1" centered>
         <Tabs.TabPane tab="Overview" key="1">
           <CompanyOverview company={company} />
         </Tabs.TabPane>
@@ -56,9 +51,7 @@ const Company = () => {
 export default Company;
 
 const StyledTabs = styled(Tabs)`
-  .ant-card-bordered {
-    border: none;
-  }
+  color: #f8f9fa;
 
   .ant-tabs-nav::before {
     border-color: #2c343b;

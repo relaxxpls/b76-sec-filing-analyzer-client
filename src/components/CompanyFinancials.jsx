@@ -5,9 +5,6 @@ import styled from 'styled-components';
 import IncomeStatement from './IncomeStatement';
 import { InfoCardNegative, InfoCardPositive } from './InfoCard';
 
-const { Content, Sider } = Layout;
-const { Title } = Typography;
-
 const CompanyFinancials = ({ company }) => {
   const [selectedMenuItem, setSelectedMenuItem] = useState('income-statement');
 
@@ -16,9 +13,9 @@ const CompanyFinancials = ({ company }) => {
       case 'income-statement':
         return <IncomeStatement />;
       case 'balance-sheet':
-        return <Title>item2</Title>;
+        return <Typography.Title>item2</Typography.Title>;
       case 'cash-flow':
-        return <Title>item3</Title>;
+        return <Typography.Title>item3</Typography.Title>;
       default:
         return null;
     }
@@ -26,22 +23,22 @@ const CompanyFinancials = ({ company }) => {
 
   return (
     <Layout style={{ background: 'transparent' }}>
-      <Sider>
-        <Menu onClick={(e) => setSelectedMenuItem(e.key)}>
+      <Layout.Sider style={{ background: 'transparent' }}>
+        <StyledMenu onClick={(e) => setSelectedMenuItem(e.key)}>
           <Menu.Item key="income-statement">INCOME STATEMENT</Menu.Item>
           <Menu.Item key="balance-sheet">BALANCE SHEET</Menu.Item>
           <Menu.Item key="cash-flow">CASH FLOW</Menu.Item>
-        </Menu>
-      </Sider>
+        </StyledMenu>
+      </Layout.Sider>
 
-      <Content style={{ minHeight: '100vh' }}>
+      <Layout.Content style={{ minHeight: '100vh' }}>
         {componentsSwitch(selectedMenuItem)}
-      </Content>
+      </Layout.Content>
 
       <RightAside>
-        <Title level={3} style={{ color: 'white' }}>
+        <Typography.Title level={3} style={{ color: 'white' }}>
           Summary
-        </Title>
+        </Typography.Title>
         <InfoCardNegative
           title="Lower than Industry Revenue Growth"
           content="Over the last five years, revenue has grown..."
@@ -60,4 +57,28 @@ export default CompanyFinancials;
 
 const RightAside = styled.div`
   padding: 2rem 0 0 0;
+`;
+
+const StyledMenu = styled(Menu)`
+  font-family: Poppins;
+  font-size: 1rem;
+  color: #7f868d;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+  text-align: right;
+
+  &.ant-menu {
+    background: transparent;
+    border-color: #2c343b;
+    height: 100%;
+
+    .ant-menu-item {
+      background: transparent;
+      border-radius: 0.25rem;
+    }
+
+    .ant-menu-item-selected {
+      background: #0002;
+    }
+  }
 `;
