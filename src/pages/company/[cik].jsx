@@ -1,11 +1,10 @@
 import { Tabs } from 'antd';
-// import axios from 'axios';
+import axios from 'axios';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
-import CompanyBenchmarks from '../../components/Company/Benchmarks/CompanyBenchmarks';
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
 import Loader from '../../components/shared/Loader';
@@ -28,13 +27,12 @@ const Company = () => {
       setCompany(result1);
 
       try {
-        await new Promise((resolve) => {
-          setTimeout(resolve, 3000);
-        });
-        // const result2 = await axios.get(`/api/company/${cik}`);
-        setCompanyData(preprocessData(result1.name, companyDataDefault));
+        const result2 = await axios.get(
+          `http://localhost:8000/api/company/${cik}`
+        );
+        setCompanyData(preprocessData(result1.name, result2));
       } catch (error) {
-        console.log(error);
+        console.error(error);
       } finally {
         setLoading(false);
       }
@@ -64,10 +62,6 @@ const Company = () => {
 
         <Tabs.TabPane tab="Financials" key="financials">
           <CompanyFinancials data={companyData} />
-        </Tabs.TabPane>
-
-        <Tabs.TabPane tab="Benchmarks" key="benchmarks">
-          <CompanyBenchmarks company={company} />
         </Tabs.TabPane>
       </StyledTabs>
     </MainContainer>

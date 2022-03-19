@@ -1,5 +1,5 @@
 import { Tabs } from 'antd';
-// import axios from 'axios';
+import axios from 'axios';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
@@ -19,6 +19,11 @@ const TabCompareHeading = () => (
     <span>Comparison</span>
   </div>
 );
+
+const APIInstance = axios.create({
+  baseURL: 'http://localhost:8000/api',
+  withCredentials: true,
+});
 
 const getRandomData = () =>
   Math.floor(Math.random() * 2) === 0
@@ -42,17 +47,17 @@ const Compare = () => {
       setCompanies(companiesTemp);
 
       try {
-        await new Promise((resolve) => {
-          setTimeout(resolve, 3000);
-        });
-        // const response = await axios.get(`/api/compare?ciks=${ciks}`);
-
-        const dataCombined = combineData(
-          ...companiesTemp.map((company) =>
-            preprocessData(company.name, getRandomData())
+        const results = await Promise.all(
+          companiesTemp.map((company) =>
+            APIInstance.get(`/company/${company.cik}`)
           )
         );
-        console.log('data', dataCombined);
+
+        const dataCombined = combineData(
+          ...companiesTemp.map((company, idx) =>
+            preprocessData(company.name, results[idx])
+          )
+        );
 
         setCompareData(dataCombined);
       } catch (error) {
