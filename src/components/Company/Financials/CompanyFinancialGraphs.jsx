@@ -7,30 +7,33 @@ import graphablePrameters from '../../../data/graphableParameters.json';
 
 const isGraphable = (type, title) => graphablePrameters[type].includes(title);
 
-const CompanyFinancialGraphs = ({ title, type, data }) => (
-  <Container>
-    <Typography.Title level={3} style={{ color: 'white' }}>
-      {title}
-    </Typography.Title>
+const CompanyFinancialGraphs = ({ title, type, data }) => {
+  if (!data) return null;
 
-    <StyledTabs type="card">
-      {Object.keys(data)
-        .filter((key) => isGraphable(type, key))
-        .map((key) => (
-          <Tabs.TabPane key={key} tab={lodash.startCase(key)}>
-            <StyledLine
-              data={data[key]}
-              xField="date"
-              yField="value"
-              seriesField="company"
-              xAxis={{ type: 'time' }}
-              lineStyle={{ stroke: '#5d5fef' }}
-            />
-          </Tabs.TabPane>
-        ))}
-    </StyledTabs>
-  </Container>
-);
+  return (
+    <Container>
+      <Typography.Title level={3} style={{ color: 'white' }}>
+        {title}
+      </Typography.Title>
+
+      <StyledTabs type="card">
+        {Object.keys(data)
+          .filter((key) => isGraphable(type, key))
+          .map((key) => (
+            <Tabs.TabPane key={key} tab={lodash.startCase(key)}>
+              <StyledLine
+                data={data[key]}
+                xField="date"
+                yField="value"
+                seriesField="company"
+                xAxis={{ type: 'time' }}
+              />
+            </Tabs.TabPane>
+          ))}
+      </StyledTabs>
+    </Container>
+  );
+};
 
 export default CompanyFinancialGraphs;
 

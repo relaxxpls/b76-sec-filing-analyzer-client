@@ -3,6 +3,7 @@ const adjustMapping = (company, obj) => {
 
   Object.keys(obj).forEach((key) => {
     result[key] = obj[key]
+      .filter((item) => item[Object.keys(item)[0]] !== null)
       .map((item) => {
         const [date] = Object.keys(item);
         const ddate = new Date(date);
@@ -17,22 +18,6 @@ const adjustMapping = (company, obj) => {
   });
 
   return result;
-
-  // Object.keys(obj).map((key) => ({
-  //   title: key,
-  //   data: obj[key]
-  //     .map((item) => {
-  //       const [date] = Object.keys(item);
-  //       const ddate = new Date(date);
-
-  //       return {
-  //         date: ddate.toJSON(),
-  //         value: parseFloat(item[date]),
-  //         company: 'Microsoft Corp',
-  //       };
-  //     })
-  //     .sort((a, b) => new Date(a.date) - new Date(b.date)),
-  // }));
 };
 
 export const preprocessData = (company, data) => ({
@@ -41,25 +26,26 @@ export const preprocessData = (company, data) => ({
   CashFlow: adjustMapping(company, data.StatementsOfCashFlows),
 });
 
-const combine = (dataA, dataB) => {
+const combine = (...datas) => {
   const combinedData = {};
 
-  dataA.forEach(({ title, data }) => {
-    if (!(title in combinedData)) combinedData[title] = [];
-    combinedData[title].append(data);
+  datas.forEach((data) => {
+    Object.keys(data).forEach((key) => {
+      if (!(key in combinedData)) combinedData[key] = [];
+      combinedData[key] = combinedData[key].concat(data[key]);
+    });
   });
-
-  dataB.forEach(({ title, data }) => {
-    if (!(title in combinedData)) combinedData[title] = [];
-    combinedData[title].append(data);
-  });
-  console.log(combinedData);
 
   return combinedData;
 };
 
-export const combineData = (dataA, dataB) => ({
-  IncomeStatement: combineData(dataA.IncomeStatement, dataB.IncomeStatement),
-  BalanceSheet: combineData(dataA.BalanceSheet, dataB.BalanceSheet),
-  CashFlow: combineData(dataA.CashFlow, dataB.CashFlow),
-});
+export const combineData = (...datas) => {
+  const result = {};
+  const types = ['IncomeStatement', 'BalanceSheet', 'CashFlow'];
+
+  types.forEach((type) => {
+    result[type] = combine(...datas.map((item) => item[type]));
+  });
+
+  return result;
+};
