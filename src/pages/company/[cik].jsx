@@ -5,9 +5,9 @@ import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
+import CompanyBenchmarks from '../../components/Company/Benchmarks/CompanyBenchmarks';
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
-import CompanyBenchmarks from '../../components/Company/Benchmarks/CompanyBenchmarks'
 import Loader from '../../components/shared/Loader';
 import companyDataDefault from '../../data/companyDataDefault.json';
 import getCompanyByCik from '../../utils/getCompanyByCik';
@@ -24,7 +24,6 @@ const Company = () => {
       setLoading(true);
       const { cik } = router.query;
       const result1 = getCompanyByCik(cik);
-      const result2 = getDataByCik(cik);
       if (!result1.cik) return;
       setCompany(result1);
 
