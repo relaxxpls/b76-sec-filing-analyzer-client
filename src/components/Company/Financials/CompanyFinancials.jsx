@@ -1,9 +1,6 @@
 import { Layout, Menu } from 'antd';
 import { useState } from 'react';
-import { HiArrowCircleDown } from 'react-icons/hi';
 import styled from 'styled-components';
-
-import StyledCard from '../../shared/Card';
 
 import CompanyFinancialGraphs from './CompanyFinancialGraphs';
 
@@ -55,43 +52,11 @@ const CompanyFinancials = ({ data }) => {
       </Layout.Sider>
 
       <Layout.Content>{componentsSwitch(selectedMenuItem)}</Layout.Content>
-
-      <RightAside>
-        <h1 level={3} style={{ color: 'white', fontWeight: 300 }}>
-          Financial Summary
-        </h1>
-
-        <StyledCard bordered={false}>
-          <h3>
-            <HiArrowCircleDown
-              size="18"
-              color="#FF5271"
-              style={{ marginRight: '0.5rem' }}
-            />
-            Lower than Industry Revenue Growth
-          </h3>
-          <p>
-            Over the last 5 years, revenue has grown at a yearly rate of 8.41%,
-            vs industry avg of 8.76%
-          </p>
-        </StyledCard>
-      </RightAside>
     </Layout>
   );
 };
 
 export default CompanyFinancials;
-
-const RightAside = styled.div`
-  padding: 0 2.5rem 0 1.5rem;
-  width: 20rem;
-
-  h1 {
-    font-family: Poppins, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-  }
-`;
 
 const StyledMenu = styled(Menu)`
   font-family: Poppins;
