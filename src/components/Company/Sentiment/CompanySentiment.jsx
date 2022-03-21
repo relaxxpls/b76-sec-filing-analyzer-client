@@ -2,7 +2,7 @@ import { Layout, Menu } from 'antd';
 import { useState } from 'react';
 import styled from 'styled-components';
 
-import CompanyFinancialGraphs, {
+import {
   CompanyLexicalGraphs,
   CompanySimilarityGraphs,
 } from '../Financials/CompanyFinancialGraphs';
@@ -17,14 +17,19 @@ const CompanySentiment = ({ data }) => {
       case 'lexical':
         return (
           <CompanyLexicalGraphs
-            form={form}
             data={data.Sentiment.lexical[form]}
+            form={form}
+            company={data.Name}
           />
         );
 
       case 'similarity':
         return (
-          <CompanySimilarityGraphs form={form} data={data.Sentiment.lexical} />
+          <CompanySimilarityGraphs
+            data={data.Sentiment.similarity[form]}
+            form={form}
+            company={data.Name}
+          />
         );
 
       default:
@@ -47,6 +52,9 @@ const CompanySentiment = ({ data }) => {
               <Menu.Item key={`similarity:${type}`}>{type}</Menu.Item>
             ))}
           </Menu.SubMenu>
+
+          {/* <Menu.Item key="lexical">Lexical</Menu.Item>
+          <Menu.Item key="similarity">Similarity</Menu.Item> */}
         </StyledMenu>
       </Layout.Sider>
 

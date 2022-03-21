@@ -7,7 +7,7 @@ import styled from 'styled-components';
 
 import CompanyFinancials from '../../components/Company/Financials/CompanyFinancials';
 import CompanyOverview from '../../components/Company/Overview/CompanyOverview';
-// import CompanySentiment from '../../components/Company/Sentiment/CompanySentiment';
+import CompanySentiment from '../../components/Company/Sentiment/CompanySentiment';
 import Loader from '../../components/shared/Loader';
 import { getCompanyByCik } from '../../utils/getCompanyByCik';
 import { preprocessData } from '../../utils/preprocess';
@@ -70,9 +70,9 @@ const Company = () => {
           <CompanyFinancials data={companyData} />
         </Tabs.TabPane>
 
-        {/* <Tabs.TabPane tab="Sentiment" key="sentiment">
+        <Tabs.TabPane tab="Sentiment" key="sentiment">
           <CompanySentiment data={companyData} />
-        </Tabs.TabPane> */}
+        </Tabs.TabPane>
       </StyledTabs>
     </MainContainer>
   );

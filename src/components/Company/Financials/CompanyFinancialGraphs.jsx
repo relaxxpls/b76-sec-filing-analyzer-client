@@ -1,6 +1,5 @@
-import { Line } from '@ant-design/plots';
+import { Line, Column } from '@ant-design/plots';
 import { Tabs, Typography } from 'antd';
-import lodash from 'lodash';
 import styled from 'styled-components';
 
 import graphablePrameters from '../../../data/graphableParameters.json';
@@ -20,7 +19,7 @@ const CompanyFinancialGraphs = ({ title, type, data }) => {
         {Object.keys(data)
           .filter((key) => isGraphable(type, key))
           .map((key) => (
-            <Tabs.TabPane key={key} tab={lodash.startCase(key)}>
+            <Tabs.TabPane key={key} tab={key}>
               <StyledLine
                 data={data[key]}
                 xField="date"
@@ -39,31 +38,85 @@ const CompanyFinancialGraphs = ({ title, type, data }) => {
   );
 };
 
-// pos_word_prop;
-// neg_word_prop;
-// uncertain_word_prop;
-// constrain_word_prop;
-// lit_word_prop;
-// interesting_word_prop;
-// export const CompanyLexicalGraphs = ({ form, data }) => {
-//   console.log(data);
-//   // bar graph on latest data
-//   Object.keys(data)
-//     .at(-1)
-//     .map((key) => {
-//       //
-//     });
+const processLexical = (data, company) => {
+  const dates = Object.keys(data).sort();
+  const latestData = data[dates[dates.length - 1]];
 
-//   return (
-//     <h1>
-//       <h2>{form}</h2>
-//     </h1>
-//   );
-// };
+  return Object.keys(latestData)
+    .filter((key) => key !== 'fog_idx')
+    .map((metric) => ({
+      value: parseFloat(latestData[metric]),
+      metric,
+      company,
+    }));
+};
 
-// export const CompanySimilarityGraphs = ({ data }) => {
-//   //
-// };
+export const CompanyLexicalGraphs = ({ data, company, form }) => {
+  if (!data) return null;
+  const processedData = processLexical(data, company);
+
+  return (
+    <Container>
+      <Typography.Title level={3} style={{ color: 'white' }}>
+        Lexical analysis of {form} forms
+      </Typography.Title>
+
+      <StyledBar
+        data={processedData}
+        xField="metric"
+        yField="value"
+        seriesField="company"
+      />
+    </Container>
+  );
+};
+
+const processSimilarity = (data, company) => {
+  const result = {};
+  const dates = JSON.parse(data.date.replace(/'/g, '"'));
+  const simIndex = JSON.parse(data.sim_index.replace(/'/g, '"'));
+
+  Object.keys(simIndex).forEach((type) => {
+    result[type] = simIndex[type].map((value, idx) => ({
+      value: parseFloat(value),
+      date: dates[idx],
+      company,
+    }));
+  });
+
+  return result;
+};
+
+export const CompanySimilarityGraphs = ({ data, company, form }) => {
+  if (!data) return null;
+  const processedData = processSimilarity(data, company);
+
+  return (
+    <Container>
+      <Typography.Title level={3} style={{ color: 'white' }}>
+        Similarity analysis of {form} forms
+      </Typography.Title>
+
+      <StyledTabs type="card">
+        {Object.keys(processedData).map((type) => (
+          <Tabs.TabPane key={type} tab={type}>
+            <StyledLine
+              data={processedData[type]}
+              xField="date"
+              yField="value"
+              seriesField="company"
+              xAxis={{ type: 'time' }}
+              slider={{
+                start: 0.7,
+                end: 1,
+              }}
+            />
+          </Tabs.TabPane>
+        ))}
+      </StyledTabs>
+    </Container>
+  );
+};
 
 export default CompanyFinancialGraphs;
 
@@ -72,6 +125,12 @@ const Container = styled.div`
 `;
 
 const StyledLine = styled(Line)`
+  background: #171a1d;
+  padding: 1.5rem;
+  border-radius: 1rem;
+`;
+
+const StyledBar = styled(Column)`
   background: #171a1d;
   padding: 1.5rem;
   border-radius: 1rem;
