@@ -1,5 +1,6 @@
 const adjustMapping = (company, obj) => {
   const result = {};
+  if (!company) return result;
 
   Object.keys(obj).forEach((key) => {
     result[key] = obj[key]

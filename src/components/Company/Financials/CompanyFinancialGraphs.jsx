@@ -39,6 +39,32 @@ const CompanyFinancialGraphs = ({ title, type, data }) => {
   );
 };
 
+// pos_word_prop;
+// neg_word_prop;
+// uncertain_word_prop;
+// constrain_word_prop;
+// lit_word_prop;
+// interesting_word_prop;
+// export const CompanyLexicalGraphs = ({ form, data }) => {
+//   console.log(data);
+//   // bar graph on latest data
+//   Object.keys(data)
+//     .at(-1)
+//     .map((key) => {
+//       //
+//     });
+
+//   return (
+//     <h1>
+//       <h2>{form}</h2>
+//     </h1>
+//   );
+// };
+
+// export const CompanySimilarityGraphs = ({ data }) => {
+//   //
+// };
+
 export default CompanyFinancialGraphs;
 
 const Container = styled.div`

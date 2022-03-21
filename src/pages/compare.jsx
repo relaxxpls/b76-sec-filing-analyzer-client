@@ -29,9 +29,8 @@ const Compare = () => {
       setLoading(true);
       const { ciks } = router.query;
 
-      const companiesTemp = decodeURI(ciks)
-        .split(',')
-        .map((cik) => getCompanyByCik(cik));
+      const companiesTemp =
+        ciks?.split(',')?.map((cik) => getCompanyByCik(cik)) ?? [];
       setCompanies(companiesTemp);
 
       try {
@@ -39,14 +38,12 @@ const Compare = () => {
           companiesTemp.map((company) =>
             axios
               .get(`http://localhost:8000/api/company/${company.cik}`)
-              .then(({ data }) => data)
+              .then((response) => response.data)
           )
         );
 
         const dataCombined = combineData(
-          ...companiesTemp.map((company, idx) =>
-            preprocessData(company.name, results[idx])
-          )
+          ...companiesTemp.map((company, idx) => preprocessData(results[idx]))
         );
 
         setCompareData(dataCombined);
