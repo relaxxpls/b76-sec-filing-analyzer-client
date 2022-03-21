@@ -28,7 +28,7 @@ const Company = () => {
 
       try {
         const result2 = await axios.get(
-          `http://localhost:8000/api/company/${cik}`
+          `${process.env.NEXT_PUBLIC_API}/api/company/${cik}`
         );
 
         const companyDataTemp = preprocessData(result2.data);

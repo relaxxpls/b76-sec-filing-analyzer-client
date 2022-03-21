@@ -37,7 +37,7 @@ const Compare = () => {
         const results = await Promise.all(
           companiesTemp.map((company) =>
             axios
-              .get(`http://localhost:8000/api/company/${company.cik}`)
+              .get(`${process.env.NEXT_PUBLIC_API}/api/company/${company.cik}`)
               .then((response) => response.data)
           )
         );
