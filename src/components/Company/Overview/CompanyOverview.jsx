@@ -56,7 +56,7 @@ const CompanyOverview = ({ company, companyData }) => {
         <Col span={8}>
           <StyledCard bordered={false}>
             <h2>P/E Ratio</h2>
-            <h3>{companyData.Analytics.PE}</h3>
+            <h3>{companyData.Analytics.PE ?? 'NA'}</h3>
           </StyledCard>
         </Col>
 
@@ -118,7 +118,7 @@ const CompanyOverview = ({ company, companyData }) => {
             Question & Answers
           </Typography.Title>
 
-          {companyData['Q&A']?.map((item) => (
+          {companyData['Q&A'].map((item) => (
             <StyledCard key={item} style={{ margin: '1rem 0' }}>
               <h2>Q) {item[0]}</h2>
               <h3>Ans) {item[1]}</h3>

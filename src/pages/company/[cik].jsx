@@ -44,6 +44,7 @@ const Company = () => {
   }, [router]);
 
   if (!company.cik) return null;
+  if (!companyData) return null;
   if (loading) return <Loader fixed />;
 
   return (
