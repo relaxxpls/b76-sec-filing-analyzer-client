@@ -49,7 +49,7 @@ const Company = () => {
   return (
     <MainContainer>
       <Head>
-        <title>{company.name} - Gather</title>
+        <title>{company.name} - Gatherf</title>
       </Head>
 
       <Heading>

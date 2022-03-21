@@ -76,11 +76,11 @@ const Home = () => {
   return (
     <Container>
       <Head>
-        <title>Search - Gather</title>
+        <title>Search - Gatherf</title>
       </Head>
 
       <LeftSection>
-        <Title>Gather.com</Title>
+        <Title>Gatherf.in</Title>
 
         <AutoComplete
           options={options}

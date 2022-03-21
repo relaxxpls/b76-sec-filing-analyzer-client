@@ -62,7 +62,7 @@ const Compare = () => {
   return (
     <Container>
       <Head>
-        <title>Compare Companies - Gather</title>
+        <title>Compare Companies - Gatherf</title>
       </Head>
 
       <Heading>
