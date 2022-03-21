@@ -2,6 +2,7 @@ import { Layout, Menu } from 'antd';
 import { useState } from 'react';
 import styled from 'styled-components';
 
+import { processLexical, processSimilarity } from '../../../utils/preprocess';
 import {
   CompanyLexicalGraphs,
   CompanySimilarityGraphs,
@@ -17,18 +18,16 @@ const CompanySentiment = ({ data }) => {
       case 'lexical':
         return (
           <CompanyLexicalGraphs
-            data={data.Sentiment.lexical[form]}
+            data={processLexical(data.Sentiment.lexical[form], data.Name)}
             form={form}
-            company={data.Name}
           />
         );
 
       case 'similarity':
         return (
           <CompanySimilarityGraphs
-            data={data.Sentiment.similarity[form]}
+            data={processSimilarity(data.Sentiment.similarity[form], data.Name)}
             form={form}
-            company={data.Name}
           />
         );
 

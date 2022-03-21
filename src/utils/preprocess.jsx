@@ -55,3 +55,32 @@ export const combineData = (...datas) => {
 
   return result;
 };
+
+export const processSimilarity = (data, company) => {
+  const result = {};
+  const dates = JSON.parse(data.date.replace(/'/g, '"'));
+  const simIndex = JSON.parse(data.sim_index.replace(/'/g, '"'));
+
+  Object.keys(simIndex).forEach((type) => {
+    result[type] = simIndex[type].map((value, idx) => ({
+      value: parseFloat(value),
+      date: dates[idx],
+      company,
+    }));
+  });
+
+  return result;
+};
+
+export const processLexical = (data, company) => {
+  const dates = Object.keys(data).sort();
+  const latestData = data[dates[dates.length - 1]];
+
+  return Object.keys(latestData)
+    .filter((key) => key !== 'fog_idx')
+    .map((metric) => ({
+      value: parseFloat(latestData[metric]),
+      metric,
+      company,
+    }));
+};
