@@ -18,6 +18,18 @@ const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
     return data?.toPrecision?.(5);
   };
 
+  const fixEbitda = (ebitda, ebit) => {
+    let res = ebitda;
+
+    try {
+      if (ebitda !== 'NA') res = ebitda.toString().replace(ebit, '');
+    } catch (error) {
+      console.log(error);
+    }
+
+    return res;
+  };
+
   const companyData = JSON.parse(JSON.stringify(companyDataTemp));
 
   if (companyData.Analytics.details === undefined)
@@ -46,6 +58,11 @@ const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
         )} / ${companyData.Analytics.high_low?.low?.toPrecision?.(5)}`
       : 'NA',
   };
+
+  companyData.Analytics.ebitda = fixEbitda(
+    companyData.Analytics.ebitda,
+    companyData.Analytics.ebit
+  );
 
   return (
     <div style={{ padding: '0 1rem' }}>
