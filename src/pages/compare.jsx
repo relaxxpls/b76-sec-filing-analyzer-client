@@ -1,9 +1,10 @@
 /* eslint-disable security/detect-object-injection */
-import { Tabs } from 'antd';
+import { Button, Tabs } from 'antd';
 import axios from 'axios';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
+import { HiOutlineChevronLeft } from 'react-icons/hi';
 import { MdOutlineCompareArrows } from 'react-icons/md';
 import styled from 'styled-components';
 
@@ -66,6 +67,11 @@ const Compare = () => {
         <title>Compare Companies - Gatherf</title>
       </Head>
 
+      <BackButton type="text" onClick={() => router.push('/')}>
+        <HiOutlineChevronLeft size="18" />
+        Back
+      </BackButton>
+
       <Heading>
         {companies.map((company, idx) => (
           <div key={company.cik} className="compare-heading-container">
@@ -73,6 +79,8 @@ const Compare = () => {
             {idx + 1 < companies.length && <span>v/s</span>}
           </div>
         ))}
+
+        <span>Back</span>
       </Heading>
 
       <StyledTabs defaultActiveKey="comparison" centered>
@@ -122,5 +130,24 @@ const StyledTabs = styled(Tabs)`
 
   .ant-tabs-nav::before {
     border-color: #2c343b;
+  }
+`;
+
+const BackButton = styled(Button)`
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0.5rem;
+  left: 0.5rem;
+  gap: 0.5rem;
+  font-size: 1rem;
+  color: #7f868d;
+  border-radius: 0.25rem;
+  padding: 1rem 0.5rem 1rem 0.25rem;
+
+  &:hover {
+    color: #f8f9fa;
+    background-color: #2c343b;
   }
 `;
