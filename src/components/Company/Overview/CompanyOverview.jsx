@@ -1,9 +1,11 @@
 import { Row, Col, Typography } from 'antd';
+import styled from 'styled-components';
 
 import StyledCard from '../../shared/Card';
 
 const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
   const getLatest = (data) => {
+    if (!data) return null;
     const dates = Object.keys(data);
     const result = data[dates[dates.length - 1]];
 
@@ -32,6 +34,11 @@ const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
     ebit: companyData.Analytics.ebit?.toPrecision?.(5) ?? 'NA',
     ebitda: companyData.Analytics.ebitda?.toPrecision?.(5) ?? 'NA',
     roce: companyData.Analytics.roce?.toPrecision?.(5) ?? 'NA',
+    high_low: companyData.Analytics.high_low?.high
+      ? `${companyData.Analytics.high_low?.high?.toPrecision?.(
+          5
+        )} / ${companyData.Analytics.high_low?.low?.toPrecision?.(5)}`
+      : 'NA',
   };
 
   return (
@@ -115,11 +122,7 @@ const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
         <Col span={8}>
           <StyledCard bordered={false}>
             <h2>High/Low</h2>
-            <h3>
-              {companyData.Analytics.high_low?.high?.toPrecision?.(5)} &nbsp;/
-              &nbsp;
-              {companyData.Analytics.high_low?.low?.toPrecision?.(5)}
-            </h3>
+            <h3>{companyData.Analytics.high_low}</h3>
           </StyledCard>
         </Col>
 
@@ -145,8 +148,41 @@ const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
           ))}
         </>
       )}
+
+      {companyData.Filings?.length && (
+        <>
+          <Typography.Title
+            level={4}
+            style={{ marginTop: '1rem', color: 'white' }}
+          >
+            Filings
+          </Typography.Title>
+
+          <FlexContainer>
+            {companyData.Filings.map((item) => (
+              <a key={item} href={item.url} target="_blank" rel="noreferrer">
+                <b>{item.form_type}</b> &#9679; {item.filings_date}
+              </a>
+            ))}
+          </FlexContainer>
+        </>
+      )}
     </div>
   );
 };
 
 export default CompanyOverview;
+
+const FlexContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  a {
+    margin: 1rem 0;
+    background: #2c343b;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
+`;
