@@ -1,3 +1,4 @@
+/* eslint-disable security/detect-object-injection */
 import { Line, Column } from '@ant-design/plots';
 import { Tabs, Typography } from 'antd';
 import styled from 'styled-components';

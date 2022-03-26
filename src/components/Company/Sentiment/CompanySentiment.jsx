@@ -1,3 +1,4 @@
+/* eslint-disable security/detect-object-injection */
 import { Layout, Menu } from 'antd';
 import { useState } from 'react';
 import styled from 'styled-components';

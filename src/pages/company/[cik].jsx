@@ -35,7 +35,7 @@ const Company = () => {
         const companyDataTemp = preprocessData(result2.data);
         setCompanyData(companyDataTemp);
       } catch (error) {
-        console.error(error);
+        // console.error(error);
       } finally {
         setLoading(false);
       }

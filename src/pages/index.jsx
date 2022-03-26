@@ -9,7 +9,7 @@ import {
 } from 'react-icons/hi';
 import styled from 'styled-components';
 
-import { SearchPopular, SearchSuggestions } from '../components/Search';
+import { SearchSuggestions } from '../components/Search';
 import companies from '../data/companies.json';
 
 const find = (a, b) => a.toLowerCase().includes(b.toLowerCase());

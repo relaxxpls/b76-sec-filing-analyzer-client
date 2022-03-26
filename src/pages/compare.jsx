@@ -1,3 +1,4 @@
+/* eslint-disable security/detect-object-injection */
 import { Tabs } from 'antd';
 import axios from 'axios';
 import Head from 'next/head';
@@ -48,7 +49,7 @@ const Compare = () => {
 
         setCompareData(dataCombined);
       } catch (error) {
-        console.log(error);
+        // console.log(error);
       } finally {
         setLoading(false);
       }

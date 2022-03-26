@@ -1,5 +1,5 @@
 import { Alert } from 'antd';
-import { HiOutlineClock, HiOutlineStar, HiOutlineTable } from 'react-icons/hi';
+// import { HiOutlineClock, HiOutlineStar, HiOutlineTable } from 'react-icons/hi';
 import styled from 'styled-components';
 
 export const SearchPopular = () => (
@@ -15,7 +15,7 @@ export const SearchPopular = () => (
   </Container>
 );
 
-const companies = ['Apple Inc', 'Meta Inc', 'Alphabet Inc', 'Microsoft Inc'];
+// const companies = ['Apple Inc', 'Meta Inc', 'Alphabet Inc', 'Microsoft Inc'];
 
 export const SearchSuggestions = () => (
   <SearchSuggestionsContainer>
@@ -67,25 +67,25 @@ const SearchSuggestionsContainer = styled.div`
   padding: 0.5rem 1rem;
 `;
 
-const Section = styled.div`
-  display: flex;
-  gap: 3rem;
-`;
+// const Section = styled.div`
+//   display: flex;
+//   gap: 3rem;
+// `;
 
-const SubSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  font-family: Lato;
-  color: #cbd1d8;
+// const SubSection = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   font-family: Lato;
+//   color: #cbd1d8;
 
-  h3,
-  h5 {
-    color: #7f868d;
-    display: flex;
-    gap: 0.25rem;
-    align-items: center;
-  }
-`;
+//   h3,
+//   h5 {
+//     color: #7f868d;
+//     display: flex;
+//     gap: 0.25rem;
+//     align-items: center;
+//   }
+// `;
 
 const Container = styled.div`
   display: flex;
