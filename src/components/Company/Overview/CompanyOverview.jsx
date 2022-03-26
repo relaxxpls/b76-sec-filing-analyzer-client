@@ -2,10 +2,36 @@ import { Row, Col, Typography } from 'antd';
 
 import StyledCard from '../../shared/Card';
 
-const CompanyOverview = ({ company, companyData }) => {
+const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
   const getLatest = (data) => {
     const dates = Object.keys(data);
-    return data[dates.length - 1];
+    const result = data[dates[dates.length - 1]];
+
+    return result;
+  };
+
+  const companyData = JSON.parse(JSON.stringify(companyDataTemp));
+
+  if (companyData.Analytics.details === undefined)
+    companyData.Analytics.details = companyData.Analytics.company_details;
+
+  companyData.Analytics = {
+    ...companyData.Analytics,
+    details: {
+      ...companyData.Analytics.details,
+      market_cap: companyData.Analytics.details?.market_cap
+        ? `${companyData.Analytics.details.market_cap} $`
+        : 'NA',
+      dividend_yield: companyData.Analytics.details?.dividend_yield
+        ? `${companyData.Analytics.details.dividend_yield.toPrecision(3)} $`
+        : 'NA',
+    },
+    PE: companyData.Analytics.PE?.toPrecision?.(5) ?? 'NA',
+    PM: getLatest(companyData.Analytics.PM)?.toPrecision?.(5) ?? 'NA',
+    Revenue: getLatest(companyData.Analytics.Revenue) ?? 'NA',
+    ebit: companyData.Analytics.ebit?.toPrecision?.(5) ?? 'NA',
+    ebitda: companyData.Analytics.ebitda?.toPrecision?.(5) ?? 'NA',
+    roce: companyData.Analytics.roce?.toPrecision?.(5) ?? 'NA',
   };
 
   return (
@@ -25,22 +51,14 @@ const CompanyOverview = ({ company, companyData }) => {
         <Col span={8}>
           <StyledCard bordered={false}>
             <h2>Market Cap</h2>
-            <h3>
-              {companyData.Analytics.details?.market_cap
-                ? `${companyData.Analytics.details?.market_cap} $`
-                : 'NA'}
-            </h3>
+            <h3>{companyData.Analytics.details.market_cap}</h3>
           </StyledCard>
         </Col>
 
         <Col span={8}>
           <StyledCard bordered={false}>
             <h2>Dividend Yield</h2>
-            <h3>
-              {companyData.Analytics.details?.dividend_yield
-                ? `${companyData.Analytics.details?.dividend_yield} $`
-                : 'NA'}
-            </h3>
+            <h3>{companyData.Analytics.details.dividend_yield}</h3>
           </StyledCard>
         </Col>
       </Row>
@@ -55,22 +73,22 @@ const CompanyOverview = ({ company, companyData }) => {
       <Row gutter={8} style={{ paddingBottom: '1rem' }}>
         <Col span={8}>
           <StyledCard bordered={false}>
-            <h2>P/E Ratio</h2>
-            <h3>{companyData.Analytics.PE ?? 'NA'}</h3>
+            <h2>Price Earnings Ratio</h2>
+            <h3>{companyData.Analytics.PE}</h3>
           </StyledCard>
         </Col>
 
         <Col span={8}>
           <StyledCard bordered={false}>
-            <h2>PM</h2>
-            <h3>{getLatest(companyData.Analytics.PM) ?? 'NA'}</h3>
+            <h2>Profit Margin Ratio</h2>
+            <h3>{companyData.Analytics.PM}</h3>
           </StyledCard>
         </Col>
 
         <Col span={8}>
           <StyledCard bordered={false}>
             <h2>Revenue</h2>
-            <h3>{getLatest(companyData.Analytics.Revenue) ?? 'NA'}</h3>
+            <h3>{companyData.Analytics.Revenue}</h3>
           </StyledCard>
         </Col>
       </Row>
@@ -83,14 +101,14 @@ const CompanyOverview = ({ company, companyData }) => {
         <Col span={4}>
           <StyledCard bordered={false}>
             <h2>EBIT</h2>
-            <h3>{companyData.Analytics.ebit ?? 'NA'}</h3>
+            <h3>{companyData.Analytics.ebit}</h3>
           </StyledCard>
         </Col>
 
         <Col span={4}>
           <StyledCard bordered={false}>
             <h2>EBITDA</h2>
-            <h3>{companyData.Analytics.ebitda ?? 'NA'}</h3>
+            <h3>{companyData.Analytics.ebitda}</h3>
           </StyledCard>
         </Col>
 
@@ -98,16 +116,17 @@ const CompanyOverview = ({ company, companyData }) => {
           <StyledCard bordered={false}>
             <h2>High/Low</h2>
             <h3>
-              {companyData.Analytics.high_low?.high} &nbsp;/ &nbsp;
-              {companyData.Analytics.high_low?.low}
+              {companyData.Analytics.high_low?.high?.toPrecision?.(5)} &nbsp;/
+              &nbsp;
+              {companyData.Analytics.high_low?.low?.toPrecision?.(5)}
             </h3>
           </StyledCard>
         </Col>
 
         <Col span={8}>
           <StyledCard bordered={false}>
-            <h2>ROCE</h2>
-            <h3>{companyData.Analytics.roce ?? 'NA'}</h3>
+            <h2>Return on capital employed</h2>
+            <h3>{companyData.Analytics.roce}</h3>
           </StyledCard>
         </Col>
       </Row>

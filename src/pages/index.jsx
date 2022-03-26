@@ -99,7 +99,7 @@ const Home = () => {
           />
         </AutoComplete>
 
-        <SearchPopular />
+        {/* <SearchPopular /> */}
       </LeftSection>
 
       <RightSection>

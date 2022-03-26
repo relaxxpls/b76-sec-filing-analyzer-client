@@ -1,5 +1,7 @@
 import { Tabs } from 'antd';
 import axios from 'axios';
+import { isEmpty } from 'lodash';
+import Error from 'next/error';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
@@ -30,7 +32,6 @@ const Company = () => {
         const result2 = await axios.get(
           `${process.env.NEXT_PUBLIC_API}/api/company/${cik}`
         );
-
         const companyDataTemp = preprocessData(result2.data);
         setCompanyData(companyDataTemp);
       } catch (error) {
@@ -43,9 +44,8 @@ const Company = () => {
     fetchCompanyData();
   }, [router]);
 
-  if (!company.cik) return null;
-  if (!companyData) return null;
   if (loading) return <Loader fixed />;
+  if (!company.cik || isEmpty(companyData)) return <Error statusCode="404" />;
 
   return (
     <MainContainer>

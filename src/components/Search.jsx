@@ -1,23 +1,19 @@
 import { Alert } from 'antd';
-import { useEffect } from 'react';
 import { HiOutlineClock, HiOutlineStar, HiOutlineTable } from 'react-icons/hi';
 import styled from 'styled-components';
 
-export const SearchPopular = () => {
-  useEffect(() => {}, []);
+export const SearchPopular = () => (
+  <Container>
+    <span>Popular searches:</span>
 
-  return (
-    <Container>
-      <span>Popular searches:</span>
-      <div>
-        <h3>Apple</h3>
-        <h3>Microsoft</h3>
-        <h3>Google</h3>
-        <h3>Amazon</h3>
-      </div>
-    </Container>
-  );
-};
+    <div>
+      <h3>Apple</h3>
+      <h3>Microsoft</h3>
+      <h3>Google</h3>
+      <h3>Amazon</h3>
+    </div>
+  </Container>
+);
 
 const companies = ['Apple Inc', 'Meta Inc', 'Alphabet Inc', 'Microsoft Inc'];
 
@@ -25,7 +21,7 @@ export const SearchSuggestions = () => (
   <SearchSuggestionsContainer>
     <Alert message="Type atleast 3 letters." type="error" />
 
-    <Section>
+    {/* <Section>
       <SubSection>
         <h3>
           <HiOutlineClock size="14" />
@@ -58,7 +54,7 @@ export const SearchSuggestions = () => (
 
         <h5 style={{ textDecoration: 'underline' }}>See More</h5>
       </SubSection>
-    </Section>
+    </Section> */}
   </SearchSuggestionsContainer>
 );
 
