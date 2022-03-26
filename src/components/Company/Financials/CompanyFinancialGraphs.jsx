@@ -1,6 +1,7 @@
 /* eslint-disable security/detect-object-injection */
 import { Line, Column } from '@ant-design/plots';
 import { Tabs, Typography } from 'antd';
+import { startCase } from 'lodash';
 import styled from 'styled-components';
 
 import graphablePrameters from '../../../data/graphableParameters.json';
@@ -20,7 +21,7 @@ const CompanyFinancialGraphs = ({ title, type, data }) => {
         {Object.keys(data)
           .filter((key) => isGraphable(type, key))
           .map((key) => (
-            <Tabs.TabPane key={key} tab={key}>
+            <Tabs.TabPane key={key} tab={startCase(key)}>
               <StyledLine
                 data={data[key]}
                 xField="date"
@@ -69,7 +70,7 @@ export const CompanySimilarityGraphs = ({ data, form }) => {
 
       <StyledTabs type="card">
         {Object.keys(data).map((type) => (
-          <Tabs.TabPane key={type} tab={type}>
+          <Tabs.TabPane key={type} tab={startCase(type)}>
             <StyledLine
               data={data[type]}
               xField="date"

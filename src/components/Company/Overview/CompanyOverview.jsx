@@ -5,11 +5,17 @@ import StyledCard from '../../shared/Card';
 
 const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
   const getLatest = (data) => {
-    if (!data) return null;
+    if (!(data instanceof Object)) return null;
     const dates = Object.keys(data);
     const result = data[dates[dates.length - 1]];
 
     return result;
+  };
+
+  const checkObj = (data) => {
+    if (data instanceof Object) return getLatest(data);
+
+    return data?.toPrecision?.(5);
   };
 
   const companyData = JSON.parse(JSON.stringify(companyDataTemp));
@@ -31,8 +37,8 @@ const CompanyOverview = ({ company, companyData: companyDataTemp }) => {
     PE: companyData.Analytics.PE?.toPrecision?.(5) ?? 'NA',
     PM: getLatest(companyData.Analytics.PM)?.toPrecision?.(5) ?? 'NA',
     Revenue: getLatest(companyData.Analytics.Revenue) ?? 'NA',
-    ebit: companyData.Analytics.ebit?.toPrecision?.(5) ?? 'NA',
-    ebitda: companyData.Analytics.ebitda?.toPrecision?.(5) ?? 'NA',
+    ebit: checkObj(companyData.Analytics.ebit) ?? 'NA',
+    ebitda: checkObj(companyData.Analytics.ebitda) ?? 'NA',
     roce: companyData.Analytics.roce?.toPrecision?.(5) ?? 'NA',
     high_low: companyData.Analytics.high_low?.high
       ? `${companyData.Analytics.high_low?.high?.toPrecision?.(
